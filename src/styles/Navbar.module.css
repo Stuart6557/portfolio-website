@@ -1,0 +1,8 @@
+.navbar {
+  width: 100vw;
+  height: 7vh;
+  min-height: 40px;
+  position: fixed;
+  z-index: 5;
+  background-color: #4F5255;
+}

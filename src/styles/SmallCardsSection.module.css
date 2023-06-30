@@ -28,6 +28,7 @@
   padding: 3vw;
   background: linear-gradient(159.68deg, #D1BFD8 12.14%, #B2CEDF 88.93%);
   box-shadow: 15px 15px 10px #000000;
+  border: 3px solid black;
   border-radius: 25px;
 }
 

@@ -11,4 +11,8 @@ Links
 
 - particles: https://github.com/VincentGarreau/particles.js/
 
+https://www.jsdelivr.com/package/npm/particles.js
+
 - example: https://github.com/jigar-sable/Portfolio-Website
+
+- frontend bootcamp 1: https://github.com/Stuart6557/frontend-bootcamp

@@ -1,7 +1,4 @@
 # portfolio-website
-coming soon!
-
-<br>
 
 Links
 
@@ -15,4 +12,4 @@ https://www.jsdelivr.com/package/npm/particles.js
 
 - example: https://github.com/jigar-sable/Portfolio-Website
 
-- frontend bootcamp 1: https://github.com/Stuart6557/frontend-bootcamp
+- frontend bootcamp: https://github.com/Stuart6557/frontend-bootcamp

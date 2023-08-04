@@ -1,7 +1,5 @@
 # portfolio-website
 
-<br>
-
 Links
 
 - Figma: https://www.figma.com/file/tY9qXXLGASVxJuhw1OTwLa/Portfolio-Website-Design?type=design&node-id=0-1&mode=design&t=ITt8bc6yyrm16H0Q-0

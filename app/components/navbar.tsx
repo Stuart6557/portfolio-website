@@ -1,8 +1,9 @@
+import 'app/globals.css'
 import Link from "next/link"
 
 export default function Navbar() {
 	return (
-		<nav>
+		<nav className="navbar">
 			<Link href="/">Home</Link>
 			<Link href="/about">About</Link>
 			<Link href="/experience">Experience</Link>

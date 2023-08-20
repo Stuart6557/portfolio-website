@@ -1,8 +1,43 @@
 :root {
   --background-color: #242527;
+  --navbar-color: #4F5255;
 }
 
+* {
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+html,
 body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif, fantasy, monospace;
   background: var(--background-color);
+}
+
+h1,
+h2,
+p {
   color: white;
+  margin: 0;
+}
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  background: var(--background-color);
+}
+
+.navbar {
+  width: 100vw;
+  height: 7vh;
+  min-height: 40px;
+  position: fixed;
+  z-index: 5;
+  background-color: var(--navbar-color);
 }

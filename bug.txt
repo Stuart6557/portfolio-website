@@ -1,0 +1,300 @@
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .eslintrc.json
+        modified:   .gitignore
+        modified:   README.md
+        new file:   app/about/page.module.css
+        new file:   app/about/page.tsx
+        new file:   app/experience/page.module.css
+        new file:   app/experience/page.tsx
+        new file:   app/globals.css
+        new file:   app/layout.tsx
+        new file:   app/page.module.css
+        new file:   app/page.tsx
+        new file:   app/projects/page.module.css
+        new file:   app/projects/page.tsx
+        new file:   next.config.js
+        modified:   package-lock.json
+        modified:   package.json
+        deleted:    public/assets/app.js
+        deleted:    public/assets/particles.json
+        deleted:    public/assets/particles.min.js
+        deleted:    public/assets/sectionsData.json
+        deleted:    public/favicon.ico
+        deleted:    public/ideas/Vector.svg
+        deleted:    public/ideas/color-scheme-ideas-from-discord.png
+        deleted:    public/ideas/design-1-color-palette.png
+        deleted:    public/ideas/design-1.png
+        deleted:    public/ideas/design-final.png
+        deleted:    public/ideas/particles.png
+        new file:   public/resume.pdf
+        deleted:    public/vercel.svg
+        deleted:    src/components/background.js
+        deleted:    src/components/footer.js
+        deleted:    src/components/landing.js
+        deleted:    src/components/largeCardSection.js
+        deleted:    src/components/navbar.js
+        deleted:    src/components/smallCardsSection.js
+        deleted:    src/pages/_app.js
+        deleted:    src/pages/index.js
+        deleted:    src/styles/Background.module.css
+        deleted:    src/styles/Footer.module.css
+        deleted:    src/styles/Home.module.css
+        deleted:    src/styles/Landing.module.css
+        deleted:    src/styles/LargeCardSection.module.css
+        deleted:    src/styles/Navbar.module.css
+        deleted:    src/styles/SmallCardsSection.module.css
+        deleted:    src/styles/globals.css
+        new file:   tsconfig.json
+
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git commit -m "set up structure"
+gnpm ERR! Missing script: "pre-commit"
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/vivianliu/.npm/_logs/2023-08-20T07_08_09_111Z-debug-0.log
+husky - pre-commit hook exited with code 1 (error)
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git commit -m "set up structure"
+npm ERR! Missing script: "pre-commit"
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/vivianliu/.npm/_logs/2023-08-20T07_08_18_242Z-debug-0.log
+husky - pre-commit hook exited with code 1 (error)
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git reset
+Unstaged changes after reset:
+M       .eslintrc.json
+M       .gitignore
+M       README.md
+M       package-lock.json
+M       package.json
+D       public/assets/app.js
+D       public/assets/particles.json
+D       public/assets/particles.min.js
+D       public/assets/sectionsData.json
+D       public/favicon.ico
+D       public/ideas/Vector.svg
+D       public/ideas/color-scheme-ideas-from-discord.png
+D       public/ideas/design-1-color-palette.png
+D       public/ideas/design-1.png
+D       public/ideas/design-final.png
+D       public/ideas/particles.png
+D       public/vercel.svg
+D       src/components/background.js
+D       src/components/footer.js
+D       src/components/landing.js
+D       src/components/largeCardSection.js
+D       src/components/navbar.js
+D       src/components/smallCardsSection.js
+D       src/pages/_app.js
+D       src/pages/index.js
+D       src/styles/Background.module.css
+D       src/styles/Footer.module.css
+D       src/styles/Home.module.css
+D       src/styles/Landing.module.css
+D       src/styles/LargeCardSection.module.css
+D       src/styles/Navbar.module.css
+D       src/styles/SmallCardsSection.module.css
+D       src/styles/globals.css
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git add .
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .eslintrc.json
+        modified:   .gitignore
+        modified:   README.md
+        new file:   app/about/page.module.css
+        new file:   app/about/page.tsx
+        new file:   app/experience/page.module.css
+        new file:   app/experience/page.tsx
+        new file:   app/globals.css
+        new file:   app/layout.tsx
+        new file:   app/page.module.css
+        new file:   app/page.tsx
+        new file:   app/projects/page.module.css
+        new file:   app/projects/page.tsx
+        new file:   next.config.js
+        modified:   package-lock.json
+        modified:   package.json
+        deleted:    public/assets/app.js
+        deleted:    public/assets/particles.json
+        deleted:    public/assets/particles.min.js
+        deleted:    public/assets/sectionsData.json
+        deleted:    public/favicon.ico
+        deleted:    public/ideas/Vector.svg
+        deleted:    public/ideas/color-scheme-ideas-from-discord.png
+        deleted:    public/ideas/design-1-color-palette.png
+        deleted:    public/ideas/design-1.png
+        deleted:    public/ideas/design-final.png
+        deleted:    public/ideas/particles.png
+        new file:   public/resume.pdf
+        deleted:    public/vercel.svg
+        deleted:    src/components/background.js
+        deleted:    src/components/footer.js
+        deleted:    src/components/landing.js
+        deleted:    src/components/largeCardSection.js
+        deleted:    src/components/navbar.js
+        deleted:    src/components/smallCardsSection.js
+        deleted:    src/pages/_app.js
+        deleted:    src/pages/index.js
+        deleted:    src/styles/Background.module.css
+        deleted:    src/styles/Footer.module.css
+        deleted:    src/styles/Home.module.css
+        deleted:    src/styles/Landing.module.css
+        deleted:    src/styles/LargeCardSection.module.css
+        deleted:    src/styles/Navbar.module.css
+        deleted:    src/styles/SmallCardsSection.module.css
+        deleted:    src/styles/globals.css
+        new file:   tsconfig.json
+
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git commit -m "set up structure"
+
+> portfolio@0.1.0 pre-commit
+> next lint -- --fix && git add -A .
+
+✔ No ESLint warnings or errors
+[main 4245d23] set up structure
+ 46 files changed, 1044 insertions(+), 1759 deletions(-)
+ create mode 100644 app/about/page.module.css
+ create mode 100644 app/about/page.tsx
+ create mode 100644 app/experience/page.module.css
+ create mode 100644 app/experience/page.tsx
+ create mode 100644 app/globals.css
+ create mode 100644 app/layout.tsx
+ create mode 100644 app/page.module.css
+ create mode 100644 app/page.tsx
+ create mode 100644 app/projects/page.module.css
+ create mode 100644 app/projects/page.tsx
+ create mode 100644 next.config.js
+ delete mode 100644 public/assets/app.js
+ delete mode 100644 public/assets/particles.json
+ delete mode 100644 public/assets/particles.min.js
+ delete mode 100644 public/assets/sectionsData.json
+ delete mode 100644 public/favicon.ico
+ delete mode 100644 public/ideas/Vector.svg
+ delete mode 100644 public/ideas/color-scheme-ideas-from-discord.png
+ delete mode 100644 public/ideas/design-1-color-palette.png
+ delete mode 100644 public/ideas/design-1.png
+ delete mode 100644 public/ideas/design-final.png
+ delete mode 100644 public/ideas/particles.png
+ create mode 100644 public/resume.pdf
+ delete mode 100644 public/vercel.svg
+ delete mode 100644 src/components/background.js
+ delete mode 100644 src/components/footer.js
+ delete mode 100644 src/components/landing.js
+ delete mode 100644 src/components/largeCardSection.js
+ delete mode 100644 src/components/navbar.js
+ delete mode 100644 src/components/smallCardsSection.js
+ delete mode 100644 src/pages/_app.js
+ delete mode 100644 src/pages/index.js
+ delete mode 100644 src/styles/Background.module.css
+ delete mode 100644 src/styles/Footer.module.css
+ delete mode 100644 src/styles/Home.module.css
+ delete mode 100644 src/styles/Landing.module.css
+ delete mode 100644 src/styles/LargeCardSection.module.css
+ delete mode 100644 src/styles/Navbar.module.css
+ delete mode 100644 src/styles/SmallCardsSection.module.css
+ delete mode 100644 src/styles/globals.css
+ create mode 100644 tsconfig.json
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website %  create mode 100644 app/about/page.module.css
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git push
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (22/22), 105.86 KiB | 11.76 MiB/s, done.
+Total 22 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 4 local objects.
+To https://github.com/Stuart6557/portfolio-website.git
+   311fa7e..4245d23  main -> main
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git add .
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git commit -m "test linting"
+
+> portfolio@0.1.0 pre-commit
+> next lint -- --fix && git add -A .
+
+✔ No ESLint warnings or errors
+[main 0440f48] test linting
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % git reset
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % npm run lint
+
+> portfolio@0.1.0 lint
+> next lint
+
+✔ No ESLint warnings or errors
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % next lint
+zsh: command not found: next
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % npm run lint
+
+> portfolio@0.1.0 lint
+> next lint
+
+Cannot read config file: /Users/vivianliu/portfolio-website/.eslintrc.json
+Error: Unexpected token } in JSON at position 139
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % npm run lint
+
+> portfolio@0.1.0 lint
+> next lint
+
+Cannot read config file: /Users/vivianliu/portfolio-website/.eslintrc.json
+Error: Unexpected token } in JSON at position 40
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % npm run lint
+
+> portfolio@0.1.0 lint
+> next lint
+
+
+./app/page.tsx
+6:13  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % ,
+  "rules": {
+    "indent": [ "error", "tab" ],
+    "react/no-unescaped-entities": 0
+  }
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % npm start
+
+> portfolio@0.1.0 start
+> next start
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+Error: Could not find a production build in the '/Users/vivianliu/portfolio-website/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at NextNodeServer.getBuildId (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/next-server.js:348:23)
+    at new Server (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/base-server.js:153:29)
+    at new NextNodeServer (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/next-server.js:175:9)
+    at NextServer.createServer (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/next.js:179:24)
+    at async /Users/vivianliu/portfolio-website/node_modules/next/dist/server/next.js:200:31
+    at async NextServer.prepare (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/next.js:161:24)
+    at async Server.<anonymous> (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/lib/render-server.js:136:17) {
+  type: 'Error'
+}
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % npm start
+
+> portfolio@0.1.0 start
+> next start
+
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+Error: Could not find a production build in the '/Users/vivianliu/portfolio-website/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at NextNodeServer.getBuildId (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/next-server.js:348:23)
+    at new Server (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/base-server.js:153:29)
+    at new NextNodeServer (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/next-server.js:175:9)
+    at NextServer.createServer (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/next.js:179:24)
+    at async /Users/vivianliu/portfolio-website/node_modules/next/dist/server/next.js:200:31
+    at async NextServer.prepare (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/next.js:161:24)
+    at async Server.<anonymous> (/Users/vivianliu/portfolio-website/node_modules/next/dist/server/lib/render-server.js:136:17) {
+  type: 'Error'
+}
+vivianliu@Vivians-MacBook-Pro-7 portfolio-website % 

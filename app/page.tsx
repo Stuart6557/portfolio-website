@@ -3,9 +3,21 @@ import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa';
 import CircleIcon from './components/CircleIcon';
 
 const links = [
-	{link: 'https://www.linkedin.com/in/vivian-liu-336148202/', icon: <FaLinkedinIn />},
-	{link: 'https://github.com/Stuart6557', icon: <FaGithub />},
-	{link: 'mailto:v6liu@ucsd.edu', icon: <FaEnvelope /> }
+	{
+		link: 'https://www.linkedin.com/in/vivian-liu-336148202/',
+		icon: <FaLinkedinIn />,
+		description: 'LinkedIn'
+	},
+	{
+		link: 'https://github.com/Stuart6557',
+		icon: <FaGithub />,
+		description: 'GitHub'
+	},
+	{
+		link: 'mailto:v6liu@ucsd.edu',
+		icon: <FaEnvelope />,
+		description: 'Email'
+	 }
 ];
 
 export default function Home() {
@@ -16,10 +28,11 @@ export default function Home() {
 			{/* <h2>I am a food lover...</h2> */}
 
 			<div className={styles.iconContainer}>
-				{links.map(({link, icon}, index) => (
+				{links.map(({link, icon, description}, index) => (
 					<CircleIcon
 						link={link}
 						icon={icon}
+						description={description}
 						key={`${link}-${index}`}
 					/>
 				))}

@@ -1,10 +1,10 @@
-import './globals.scss'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import Navbar from './components/Navbar'
-import Background from './components/Background'
+import './globals.scss';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import Navbar from './components/Navbar';
+import Background from './components/Background';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
 	title: 'Vivian Liu',
@@ -24,5 +24,5 @@ export default function RootLayout({
 				{children}
 			</body>
 		</html>
-	)
-}
+	);
+};

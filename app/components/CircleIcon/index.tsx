@@ -1,6 +1,6 @@
-import { ReactNode } from 'react'
-import Link from 'next/link'
-import styles from './style.module.scss'
+import { ReactNode } from 'react';
+import Link from 'next/link';
+import styles from './style.module.scss';
 
 interface CircleIconProps {
   link: string;
@@ -23,5 +23,5 @@ export default function CircleIcon({link, icon, description}: CircleIconProps) {
 				<Link href={link} className={styles.link}>{description}</Link>
 			</div>
 		</div>
-	)
-}
+	);
+};

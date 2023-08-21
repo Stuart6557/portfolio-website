@@ -1,5 +1,5 @@
-import Link from "next/link"
-import styles from './styles.module.scss'
+import Link from "next/link";
+import styles from './styles.module.scss';
 
 export default function Navbar() {
 	return (
@@ -20,5 +20,5 @@ export default function Navbar() {
 				<Link href="resume.pdf" target="_blank" className={styles.link}>Resume</Link>
 			</div>
 		</nav>
-	)
-}
+	);
+};

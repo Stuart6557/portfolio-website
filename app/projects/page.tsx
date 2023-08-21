@@ -1,9 +1,9 @@
-import styles from './page.module.scss'
+import styles from './page.module.scss';
 
 export default function Page() {
 	return (
 		<main className={styles.main}>
 			<h1>Projects</h1>
 		</main>
-	)
-}
+	);
+};

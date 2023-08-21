@@ -18,13 +18,15 @@
 
   h1 {
     animation: fadeInAnimation ease 1s;
-    margin-top: 20px;
+    margin-top: 50px;
+    font-size: calc(12px + 3vw);
   }
 
   h2 {
     animation: fadeInAnimation ease 1s;
-    font-weight: 200;
     margin-top: 20px;
+    font-weight: 200;
+    font-size: calc(12px + 1vw);
   }
 }
 

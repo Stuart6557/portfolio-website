@@ -1,5 +1,15 @@
-.circleicon{
-  .circlebutton {
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.circleIcon{
+  .circleButton {
+    animation: fadeInAnimation ease 1s;
     width: 70px;
     height: 70px;
     margin: 0px;
@@ -13,7 +23,7 @@
 
     scale: 1;
     transform: translateY(0px);
-    transition: 0.2s;
+    transition: 0.3s;
   
     svg {
       display: block;
@@ -34,12 +44,12 @@
     .link {
       color: var(--text-color);
       text-decoration: none;
-      transition: 0.2s;
+      transition: 3s;
     }
   }
 
   &:hover {
-    .circlebutton {
+    .circleButton {
       scale: 0.8;
       transform: translateY(-10px);
       transition: 0.5s;

@@ -1,4 +1,14 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .main {
+  animation: fadeInAnimation ease 1s;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -6,11 +16,23 @@
   align-items: center;
   z-index: 1;
 
-  * {
-    margin-top: 20px;
+  h1 {
+    margin-top: 13vh;
   }
 
-  h1 {
-    margin-top: 15vh;
+  .card {
+    width: 90vw;
+    min-height: 70vh;
+    margin-top: 4vh;
+    background: linear-gradient(130deg, var(--light-purple), var(--light-blue));
+    border-radius: 30px;
+
+    box-shadow: 7px 7px 7px var(--shadow-color);
+    transition: 3s;
+
+    &:hover {
+      box-shadow: 13px 13px 13px var(--shadow-color);
+      transition: 0.3s;
+    }
   }
 }

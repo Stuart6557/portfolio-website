@@ -1,0 +1,31 @@
+.navbar {
+  width: 100vw;
+  height: 7vh;
+  min-height: 40px;
+  position: fixed;
+  z-index: 5;
+  background-color: var(--navbar-color);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  div {
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  .link:hover {
+    font-size: large;
+    transition: 0.2s;
+  }
+}

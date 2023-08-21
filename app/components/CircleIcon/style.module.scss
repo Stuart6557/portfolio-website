@@ -1,0 +1,16 @@
+.circleicon {
+  width: 70px;
+  height: 70px;
+  margin: 0px;
+  background: linear-gradient(130deg, var(--light-purple), var(--light-blue));
+  color: darkslategray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 7px 7px 7px var(--shadow-color);
+
+  svg {
+    transform: scale(2.5) translatey(-0.3em);
+  }
+}

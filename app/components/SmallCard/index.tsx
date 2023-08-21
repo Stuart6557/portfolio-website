@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './style.module.scss';
+import Image from 'next/image';
 
 interface CircleIconProps {
   link: string;
@@ -13,7 +14,7 @@ export default function SmallCard({link, imgSrc, imgAlt, title, description}: Ci
 	return (
 		<Link href={link}>
 			<div className={styles.smallCard}>
-				<img src={imgSrc} alt={imgAlt} />
+				<Image src={imgSrc} alt={imgAlt} />
 				<div>
 					<h3>
 						{title}

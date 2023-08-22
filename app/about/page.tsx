@@ -6,6 +6,13 @@ export default function About() {
 			<h1>About</h1>
 			<div className={styles.card}>
 			</div>
+			{/* 
+				Intro
+				Contact
+				Resume
+				Hobbies? Fun facts? idk
+				Education (transcript)
+			*/}
 		</main>
 	);
 };

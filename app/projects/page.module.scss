@@ -21,11 +21,26 @@
   }
 
   .cardContainer {
-    width: 100vw;
+    width: 90vw;
+    max-width: 1500px;
+    box-sizing: border-box;
     margin-top: 5vh;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-bottom: 5vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 50px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .cardContainer {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .cardContainer {
+      grid-template-columns: 1fr;
+    }
   }
 }

@@ -7,21 +7,37 @@ interface CircleIconProps {
   imgSrc: string;
   imgAlt: string;
   title: string;
+	date: string;
 	description: string;
 }
 
-export default function SmallCard({link, imgSrc, imgAlt, title, description}: CircleIconProps) {
+export default function SmallCard({
+	link,
+	imgSrc,
+	imgAlt,
+	title,
+	date,
+	description
+}: CircleIconProps) {
 	return (
-		<Link href={link}>
+		<Link href={link} className={styles.link}>
 			<div className={styles.smallCard}>
-				<Image src={imgSrc} alt={imgAlt} />
-				<div>
-					<h3>
+				<div className={styles.imgDiv}>
+					<div className={styles.imgContainer}>
+						<Image fill={true} src={imgSrc} alt={imgAlt} className={styles.image} />
+					</div>
+				</div>
+				<div className={styles.description}>
+					<h2>
 						{title}
+					</h2>
+					<h3>
+						{date}
 					</h3>
 					<p>
 						{description}
 					</p>
+					<br />
 				</div>
 			</div>
 		</Link>

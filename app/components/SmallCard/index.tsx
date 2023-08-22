@@ -14,7 +14,12 @@ export default function SmallCard({link, imgSrc, imgAlt, title, description}: Ci
 	return (
 		<Link href={link}>
 			<div className={styles.smallCard}>
-				<Image src={imgSrc} alt={imgAlt} />
+				<div className={styles.imgDiv}>
+					<div className={styles.imgContainer}>
+						<Image fill={true} src={imgSrc} alt={imgAlt} className={styles.image} />
+						{/* <img src={imgSrc} alt={imgAlt} /> */}
+					</div>
+				</div>
 				<div>
 					<h3>
 						{title}

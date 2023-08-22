@@ -1,42 +1,42 @@
 export const cards = [
 	{
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: '',
 		description: ''
 	},
 	{
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: '',
 		description: ''
 	},
 	{
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: '',
 		description: ''
 	 },
 	 {
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: '',
 		description: ''
 	 },
 	 {
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: '',
 		description: ''
 	 },
 	 {
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: '',
 		description: ''

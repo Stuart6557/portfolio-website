@@ -17,7 +17,6 @@ export default function SmallCard({link, imgSrc, imgAlt, title, description}: Ci
 				<div className={styles.imgDiv}>
 					<div className={styles.imgContainer}>
 						<Image fill={true} src={imgSrc} alt={imgAlt} className={styles.image} />
-						{/* <img src={imgSrc} alt={imgAlt} /> */}
 					</div>
 				</div>
 				<div>

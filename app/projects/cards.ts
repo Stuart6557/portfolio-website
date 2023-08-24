@@ -1,7 +1,7 @@
 export const cards = [
 	{
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/projects/lak_goods_transport/card_img.png',
 		imgAlt: '',
 		title: 'LAK Goods Transport Application',
 		date: '',
@@ -9,7 +9,7 @@ export const cards = [
 	},
 	{
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/projects/event_qr_code_generator/card_img.png',
 		imgAlt: '',
 		title: 'Event QR Code Generator',
 		date: '',
@@ -17,7 +17,7 @@ export const cards = [
 	},
 	{
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/projects/update_grad_date_automator/card_img.png',
 		imgAlt: '',
 		title: 'Update Grad Date Automator',
 		date: '',
@@ -25,7 +25,7 @@ export const cards = [
 	 },
 	 {
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/projects/green_guide/card_img.png',
 		imgAlt: '',
 		title: 'Green Guide',
 		date: '',
@@ -33,7 +33,7 @@ export const cards = [
 	 },
 	 {
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/projects/toxic_comment_classification/card_img.png',
 		imgAlt: '',
 		title: 'Toxic Comment Classification',
 		date: '',
@@ -41,7 +41,7 @@ export const cards = [
 	 },
 	 {
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/projects/finance_buddy/card_img.png',
 		imgAlt: '',
 		title: 'Finance Buddy',
 		date: '',

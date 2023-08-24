@@ -1,44 +1,50 @@
 export const cards = [
 	{
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: 'LAK Goods Transport Application',
-		description: 'App that facilitates the transportation of goods'
+		date: '',
+		description: 'App that facilitates transportation of goods'
 	},
 	{
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: 'Event QR Code Generator',
+		date: '',
 		description: 'Generates QR Codes for events'
 	},
 	{
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: 'Update Grad Date Automator',
+		date: '',
 		description: 'Automates a tedious job for a student org'
 	 },
 	 {
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: 'Green Guide',
+		date: '',
 		description: 'Sustainability web app for LA Hacks'
 	 },
 	 {
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: 'Toxic Comment Classification',
+		date: '',
 		description: 'Model that identifies toxic Wikipedia comments'
 	 },
 	 {
 		link: '',
-		imgSrc: '',
+		imgSrc: '/placeholder.png',
 		imgAlt: '',
 		title: 'Finance Buddy',
+		date: '',
 		description: 'Full-stack expense tracker'
 	 }
 ];

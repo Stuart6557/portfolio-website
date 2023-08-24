@@ -21,11 +21,13 @@
   .link {
     color: var(--text-color);
     text-decoration: none;
+    scale: 1;
     transition: 0.3s;
   }
   
   .link:hover {
     font-size: large;
+    scale: 1.1;
     transition: 0.3s;
   }
 }

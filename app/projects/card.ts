@@ -3,42 +3,42 @@ export const cards = [
 		link: '',
 		imgSrc: '',
 		imgAlt: '',
-		title: '',
-		description: ''
+		title: 'LAK Goods Transport Application',
+		description: 'App that facilitates the transportation of goods'
 	},
 	{
 		link: '',
 		imgSrc: '',
 		imgAlt: '',
-		title: '',
-		description: ''
+		title: 'Event QR Code Generator',
+		description: 'Generates QR Codes for events'
 	},
 	{
 		link: '',
 		imgSrc: '',
 		imgAlt: '',
-		title: '',
-		description: ''
+		title: 'Update Grad Date Automator',
+		description: 'Automates a tedious job for a student org'
 	 },
 	 {
 		link: '',
 		imgSrc: '',
 		imgAlt: '',
-		title: '',
-		description: ''
+		title: 'Green Guide',
+		description: 'Sustainability web app for LA Hacks'
 	 },
 	 {
 		link: '',
 		imgSrc: '',
 		imgAlt: '',
-		title: '',
-		description: ''
+		title: 'Toxic Comment Classification',
+		description: 'Model that identifies toxic Wikipedia comments'
 	 },
 	 {
 		link: '',
 		imgSrc: '',
 		imgAlt: '',
-		title: '',
-		description: ''
+		title: 'Finance Buddy',
+		description: 'Full-stack expense tracker'
 	 }
 ];

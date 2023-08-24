@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from './style.module.scss';
 import Image from 'next/image';
 
-interface SmallCardProps {
+interface BigCardProps {
   link: string;
   imgSrc: string;
   imgAlt: string;
@@ -11,14 +11,14 @@ interface SmallCardProps {
 	description: string;
 }
 
-export default function SmallCard({
+export default function BigCard({
 	link,
 	imgSrc,
 	imgAlt,
 	title,
 	date,
 	description
-}: SmallCardProps) {
+}: BigCardProps) {
 	return (
 		<Link href={link} className={styles.link}>
 			<div className={styles.smallCard}>

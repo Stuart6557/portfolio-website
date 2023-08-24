@@ -24,7 +24,7 @@ export default function SmallCard({
 			<div className={styles.smallCard}>
 				<div className={styles.imgDiv}>
 					<div className={styles.imgContainer}>
-						<Image fill={true} src={imgSrc} alt={imgAlt} className={styles.image} />
+						<Image fill={true} sizes='100vw' src={imgSrc} alt={imgAlt} className={styles.image} />
 					</div>
 				</div>
 				<div className={styles.description}>

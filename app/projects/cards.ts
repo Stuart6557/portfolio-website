@@ -4,7 +4,7 @@ export const cards = [
 		imgSrc: '/projects/lak_goods_transport/card_img.png',
 		imgAlt: '',
 		title: 'LAK Goods Transport Application',
-		date: '',
+		date: 'Nov 2022 – Jun 2023',
 		description: 'App that facilitates transportation of goods'
 	},
 	{
@@ -12,7 +12,7 @@ export const cards = [
 		imgSrc: '/projects/event_qr_code_generator/card_img.png',
 		imgAlt: '',
 		title: 'Event QR Code Generator',
-		date: '',
+		date: 'Jan 2023 – May 2023',
 		description: 'Generates QR Codes for events'
 	},
 	{
@@ -20,7 +20,7 @@ export const cards = [
 		imgSrc: '/projects/update_grad_date_automator/card_img.png',
 		imgAlt: '',
 		title: 'Update Grad Date Automator',
-		date: '',
+		date: 'Jul 2023',
 		description: 'Automates a tedious job for a student org'
 	 },
 	 {
@@ -28,7 +28,7 @@ export const cards = [
 		imgSrc: '/projects/green_guide/card_img.png',
 		imgAlt: '',
 		title: 'Green Guide',
-		date: '',
+		date: 'Apr 2023',
 		description: 'Sustainability web app for LA Hacks'
 	 },
 	 {
@@ -36,7 +36,7 @@ export const cards = [
 		imgSrc: '/projects/toxic_comment_classification/card_img.png',
 		imgAlt: '',
 		title: 'Toxic Comment Classification',
-		date: '',
+		date: 'Jan 2023 – Apr 2023',
 		description: 'Model that identifies toxic Wikipedia comments'
 	 },
 	 {
@@ -44,7 +44,7 @@ export const cards = [
 		imgSrc: '/projects/finance_buddy/card_img.png',
 		imgAlt: '',
 		title: 'Finance Buddy',
-		date: '',
+		date: 'Oct 2022 – Dec 2022',
 		description: 'Full-stack expense tracker'
 	 }
 ];

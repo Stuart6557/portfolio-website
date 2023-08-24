@@ -44,7 +44,7 @@ export const cards = [
 		imgSrc: '/projects/finance_buddy/card_img.png',
 		imgAlt: '',
 		title: 'Finance Buddy',
-		date: 'Oct 2022 – Dec 2022',
+		date: 'Oct 2022 – Nov 2022',
 		description: 'Full-stack expense tracker'
 	 }
 ];

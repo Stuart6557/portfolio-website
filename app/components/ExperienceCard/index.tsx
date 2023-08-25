@@ -2,26 +2,26 @@ import Link from 'next/link';
 import styles from './style.module.scss';
 import Image from 'next/image';
 
-interface SmallCardProps {
+interface ExperienceCardProps {
   link: string;
   imgSrc: string;
   imgAlt: string;
-  title: string;
+  role: string;
+	company: string;
 	date: string;
-	description: string;
 }
 
-export default function SmallCard({
+export default function ExperienceCard({
 	link,
 	imgSrc,
 	imgAlt,
-	title,
-	date,
-	description
-}: SmallCardProps) {
+	role,
+	company,
+	date
+}: ExperienceCardProps) {
 	return (
 		<Link href={link} className={styles.link}>
-			<div className={styles.smallCard}>
+			<div className={styles.experienceCard}>
 				<div className={styles.imgDiv}>
 					<div className={styles.imgContainer}>
 						<Image fill={true} sizes='100vw' src={imgSrc} alt={imgAlt} className={styles.image} />
@@ -29,13 +29,13 @@ export default function SmallCard({
 				</div>
 				<div className={styles.description}>
 					<h2>
-						{title}
+						{role}
 					</h2>
 					<h3>
-						{date}
+						{company}
 					</h3>
 					<p>
-						{description}
+						{date}
 					</p>
 					<br />
 				</div>

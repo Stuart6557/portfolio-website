@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from './style.module.scss';
 import Image from 'next/image';
 
-interface CircleIconProps {
+interface SmallCardProps {
   link: string;
   imgSrc: string;
   imgAlt: string;
@@ -18,13 +18,13 @@ export default function SmallCard({
 	title,
 	date,
 	description
-}: CircleIconProps) {
+}: SmallCardProps) {
 	return (
 		<Link href={link} className={styles.link}>
 			<div className={styles.smallCard}>
 				<div className={styles.imgDiv}>
 					<div className={styles.imgContainer}>
-						<Image fill={true} src={imgSrc} alt={imgAlt} className={styles.image} />
+						<Image fill={true} sizes='100vw' src={imgSrc} alt={imgAlt} className={styles.image} />
 					</div>
 				</div>
 				<div className={styles.description}>

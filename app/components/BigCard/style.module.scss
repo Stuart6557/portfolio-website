@@ -27,12 +27,12 @@
       font-size: 20px;
       scale: 1;
       transition: 0.3s;
-    }
-    
-    .link:hover {
-      color: var(--text-color);
-      scale: 1.25;                // come back to this later, not working
-      transition: 0.3s;
+
+      &:hover {
+        color: var(--text-color);
+        scale: 1.25;                // come back to this later, not working
+        transition: 0.3s;
+      }
     }
   }
 

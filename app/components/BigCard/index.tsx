@@ -1,45 +1,23 @@
+import { ReactElement } from 'react';
 import Link from 'next/link';
 import styles from './style.module.scss';
-import Image from 'next/image';
 
 interface BigCardProps {
-  link: string;
-  imgSrc: string;
-  imgAlt: string;
+  backNavLink: string;
   title: string;
-	date: string;
-	description: string;
+  content: ReactElement;
 }
 
-export default function BigCard({
-	link,
-	imgSrc,
-	imgAlt,
-	title,
-	date,
-	description
-}: BigCardProps) {
+export default function BigCard({backNavLink, title, content}: BigCardProps) {
 	return (
-		<Link href={link} className={styles.link}>
-			<div className={styles.smallCard}>
-				<div className={styles.imgDiv}>
-					<div className={styles.imgContainer}>
-						<Image fill={true} sizes='100vw' src={imgSrc} alt={imgAlt} className={styles.image} />
-					</div>
-				</div>
-				<div className={styles.description}>
-					<h2>
-						{title}
-					</h2>
-					<h3>
-						{date}
-					</h3>
-					<p>
-						{description}
-					</p>
-					<br />
-				</div>
+		<main className={styles.main}>
+			<div className={styles.navContainer}>
+				<Link href={backNavLink} className={styles.link}>&lt; Back</Link>
 			</div>
-		</Link>
+			<h1>{title}</h1>
+			<div className={styles.bigCard}>
+				{content}
+			</div>
+		</main>
 	);
 };

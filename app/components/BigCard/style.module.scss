@@ -1,0 +1,55 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main {
+  animation: fadeInAnimation ease 1s;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+
+  .navContainer {
+    margin-top: 13vh;
+    width: 85vw;
+    text-align: left;
+
+    .link {
+      color: var(--light-purple);
+      text-decoration: none;
+      font-size: 20px;
+      scale: 1;
+      transition: 0.3s;
+
+      &:hover {
+        color: var(--text-color);
+        scale: 1.25;                // come back to this later, not working
+        transition: 0.3s;
+      }
+    }
+  }
+
+  .bigCard {
+    width: 90vw;
+    min-height: 60vh;
+    margin-top: 4vh;
+    padding: 3vh;
+    background: linear-gradient(130deg, var(--light-purple), var(--light-blue));
+    border-radius: 30px;
+
+    box-shadow: 7px 7px 7px var(--shadow-color);
+    transition: 3s;
+
+    &:hover {
+      box-shadow: 13px 13px 13px var(--shadow-color);
+      transition: 0.3s;
+    }
+  }
+}

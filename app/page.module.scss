@@ -20,12 +20,15 @@
     animation: fadeInAnimation ease 1s;
     margin-top: 50px;
     font-size: calc(12px + 3vw);
+    color: var(--light-purple-home);
   }
 
   h2 {
     animation: fadeInAnimation ease 1s;
     margin-top: 20px;
-    font-weight: 200;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-weight: 300;
     font-size: calc(12px + 1vw);
   }
 }
@@ -34,7 +37,7 @@
   margin-top: 50px;
   width: 40vw;
   max-width: 1000px;
-  min-width: 300px;
+  min-width: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

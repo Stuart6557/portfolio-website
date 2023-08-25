@@ -10,8 +10,10 @@
 .circleIcon{
   .circleButton {
     animation: fadeInAnimation ease 1s;
-    width: 70px;
-    height: 70px;
+    width: calc(50px + 1.7vw);
+    max-width: 80px;
+    height: calc(50px + 1.7vw);
+    max-height: 80px;
     margin: 0px;
     background: linear-gradient(130deg, var(--light-purple), var(--light-blue));
     color: darkslategray;
@@ -42,8 +44,9 @@
     transition: 0.5s;
 
     .link {
-      color: var(--text-color);
+      color: var(--light-blue-home);
       text-decoration: none;
+      font-weight: 500;
       transition: 3s;
     }
   }
@@ -58,7 +61,7 @@
     .iconDescription {
       opacity: 1;
       transform: translateY(-10px);
-      transition: 0.5s scale(1.5) scale(2.5);
+      transition: 0.5s;
     }
   }
 }

@@ -16,7 +16,7 @@ export const cards = [
 		description: 'Generates QR Codes for events'
 	},
 	{
-		link: '/projects/update-grad-date',
+		link: '/projects/update-grad-date-automator',
 		imgSrc: '/projects/update_grad_date_automator/card_img.png',
 		imgAlt: 'Update Grad Date Automator',
 		title: 'Update Grad Date Automator',

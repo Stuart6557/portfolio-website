@@ -1,7 +1,7 @@
 export const cards = [
 	{
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/experience/ucsd-ersp.jpg',
 		imgAlt: '',
 		role: 'Student Researcher',
 		company: 'UC San Diego',
@@ -9,7 +9,7 @@ export const cards = [
 	},
 	{
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/experience/ucsd-cse.png',
 		imgAlt: '',
 		role: 'Computer Science Tutor',
 		company: 'UC San Diego',
@@ -17,7 +17,7 @@ export const cards = [
 	},
 	{
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/experience/tse.png',
 		imgAlt: '',
 		role: 'VP Operations, Developer',
 		company: 'Triton Software Engineering',
@@ -25,7 +25,7 @@ export const cards = [
 	 },
 	 {
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/experience/acm-ucsd.png',
 		imgAlt: '',
 		role: 'Automation Developer',
 		company: 'ACM at UCSD',
@@ -33,7 +33,7 @@ export const cards = [
 	 },
 	 {
 		link: '',
-		imgSrc: '/placeholder.png',
+		imgSrc: '/experience/yonder.png',
 		imgAlt: '',
 		role: 'Developer',
 		company: 'Yonder Dynamics',

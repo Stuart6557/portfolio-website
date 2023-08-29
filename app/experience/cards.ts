@@ -5,7 +5,7 @@ export const cards = [
 		imgAlt: 'UCSD ERSP',
 		role: 'Student Researcher',
 		company: 'UC San Diego',
-		date: 'Starting fall 2023',
+		date: 'Starting Sep 2023',
 	},
 	{
 		link: '/experience/ucsd-cs-tutor',

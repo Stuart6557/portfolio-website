@@ -1,6 +1,7 @@
 import styles from './page.module.scss';
 import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa';
 import CircleIcon from './components/CircleIcon';
+import PageContainer from './components/PageContainer';
 
 const links = [
 	{
@@ -22,21 +23,23 @@ const links = [
 
 export default function Home() {
 	return (
-		<main className={styles.main}>
-			<h1>Hi, I'm Vivian Liu 🤚</h1>
-			<h2>This site is still a work in progress, but feel free to look around :)</h2>
-			{/* <h2>I am a food lover...</h2> */}
+		<PageContainer content={
+			<div className={styles.container}>
+				<h1>Hi, I'm Vivian Liu 🤚</h1>
+				<h2>This site is still a work in progress, but feel free to look around :)</h2>
+				{/* <h2>I am a food lover...</h2> */}
 
-			<div className={styles.iconContainer}>
-				{links.map(({link, icon, description}, index) => (
-					<CircleIcon
-						link={link}
-						icon={icon}
-						description={description}
-						key={`${link}-${index}`}
-					/>
-				))}
+				<div className={styles.iconContainer}>
+					{links.map(({link, icon, description}, index) => (
+						<CircleIcon
+							link={link}
+							icon={icon}
+							description={description}
+							key={`${link}-${index}`}
+						/>
+					))}
+				</div>
 			</div>
-		</main>
+		}></PageContainer>
 	);
 };

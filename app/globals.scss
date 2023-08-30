@@ -8,12 +8,15 @@
   --light-purple-home: #e2d1e9;
   --light-blue-home: #ccdee7;
   
-  --text-color: white;
+  --title-text-color: white;
   --card-title-color: #4b177c;
   --card-text-color: black;
-  --card-font-size: 18px;
+  --card-font-size: 1rem;
   --link-color: #0000EE;
-  --link-hover: #4c4cfb;
+  --link-hover: #5858ff;
+
+  --page-load-time: 1s;
+  --transition-time: 0.3s;
 }
 
 * {
@@ -23,6 +26,8 @@
 
 html,
 body {
+  width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: sans-serif, fantasy, monospace;
@@ -31,8 +36,7 @@ body {
 
   h1,
   h2,
-  p {
-    color: var(--text-color);
+  p{
     margin: 0;
   }
 }

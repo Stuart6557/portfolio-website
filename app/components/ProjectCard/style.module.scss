@@ -11,12 +11,12 @@
 
   scale: 1;
   box-shadow: 7px 7px 7px var(--shadow-color);
-  transition: 0.4s;
+  transition: var(--transition-time);
 
   &:hover {
     scale: 1.02;
     box-shadow: 13px 13px 13px var(--shadow-color);
-    transition: 0.4s;
+    transition: var(--transition-time);
   }
 
   .imgDiv {
@@ -31,9 +31,8 @@
     .imgContainer {
       aspect-ratio: 1 / 1;
       width: 95%;
-      transition: 0.4s;
-      // This line is needed for fill={true} to work on Image components
-      position: relative;
+      transition: var(--transition-time);
+      position: relative;   // Needed for fill={true} to work on Image components
     }
 
     .image {

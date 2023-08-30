@@ -1,15 +1,12 @@
 import styles from './page.module.scss';
 import Link from 'next/link';
-import PageContainer from '../components/PageContainer';
+import PageTemplate from '../components/PageTemplate';
 
 export default function About() {
 	return (
-		<PageContainer content={
-			<div className={styles.container}>
-				<div>
-					<h1>About</h1>
-				</div>
-
+		<PageTemplate 
+			heading='About'
+			content={
 				<div className={styles.card}>
 					<h2>Intro</h2>
 					<hr />
@@ -82,8 +79,8 @@ export default function About() {
 							As of September 1, 2023, I am on a 2158 day Duolingo streak 🔥
 						</li>
 						<li>
-							I taught myself how to do all 3 splits! I can also do a split
-							backbend when I'm warmed up 💃
+							I taught myself how to do all 3 splits! I can also do front split
+							backbends when I'm warmed up 💃
 						</li>
 						<li>
 							I like to edit short, funny videos in my free time.
@@ -98,7 +95,7 @@ export default function About() {
 						</li>
 					</ul>
 				</div>
-			</div>
-		}></PageContainer>
+			}
+		></PageTemplate>
 	);
 };

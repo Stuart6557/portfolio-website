@@ -1,0 +1,32 @@
+.pagetemplate {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    // double check this
+
+  .navContainer {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: left;
+
+    .link {
+      color: var(--light-purple);
+      text-decoration: none;
+      font-size: var(--card-font-size);
+      transform: scale(1);
+      transition: var(--transition-time);
+
+      &:hover {
+        color: var(--text-color);
+        transform: scale(1.25);                // come back to this later, not working
+        transition: var(--transition-time);
+      }
+    }
+  }
+
+  h1 {
+    color: var(--title-text-color);
+    margin: 2rem 0 2rem 0;
+  }
+}

@@ -87,7 +87,7 @@ export default function About() {
 							&nbsp;with the default settings is currently 57 🧮
 						</li> */}
 						<li>
-							As of September 1, 2023, I am on a 2158 day Duolingo streak 🔥
+							As of September 1, 2023, I am on a 2159 day Duolingo streak 🔥
 						</li>
 						<li>
 							I taught myself how to do all 3 splits and front split

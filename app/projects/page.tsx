@@ -1,6 +1,6 @@
 import styles from './page.module.scss';
 import { cards } from './cards';
-import ProjectCard from '../components/ProjectCard';
+import SmallProjectCard from '../components/SmallProjectCard';
 import PageTemplate from '../components/PageTemplate';
 
 export default function Projects() {
@@ -10,7 +10,7 @@ export default function Projects() {
 			content={
 				<div className={styles.cardContainer}>
 					{cards.map(({link, imgSrc, imgAlt, title, date, description}, index) => (
-						<ProjectCard
+						<SmallProjectCard
 							link={link}
 							imgSrc={imgSrc}
 							imgAlt={imgAlt}
@@ -22,6 +22,6 @@ export default function Projects() {
 					))}
 				</div>
 			}
-		></PageTemplate>
+		/>
 	);
 };

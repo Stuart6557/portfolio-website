@@ -6,7 +6,7 @@ interface PageContainerProps {
 }
 
 /**
- * Container used for every single page. Has side margins and top margin to
+ * Container used for every single page. Has side margins and a top margin to
  * account for navbar.
  */
 export default function PageContainer({content}: PageContainerProps) {

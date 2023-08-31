@@ -15,18 +15,18 @@ interface PageTemplateProps {
  */
 export default function PageTemplate({backNavLink, heading, content}: PageTemplateProps) {
 	return (
-		<PageContainer content={
-			<div className={styles.pagetemplate}>
-				{backNavLink && 
-					<div className={styles.navContainer}>
-						<Link href={backNavLink} className={styles.link}>&lt; Back</Link>
-					</div>
-				}
-				
-				<h1>{heading}</h1>
-				
-				{content}
-			</div>
-		}></PageContainer>
+		<PageContainer
+			content={
+				<div className={styles.pagetemplate}>
+					{backNavLink && 
+						<div className={styles.navContainer}>
+							<Link href={backNavLink} className={styles.link}>&lt; Back</Link>
+						</div>
+					}
+					<h1>{heading}</h1>
+					{content}
+				</div>
+			}
+		/>
 	);
 };

@@ -11,16 +11,16 @@ interface CircleIconProps {
 export default function CircleIcon({link, icon, description}: CircleIconProps) {
 	return (
 		<div className={styles.circleIcon}>
-			<a
+			<Link
 				className={styles.circleButton}
 				href={link}
 				target="_blank"
 				rel="noopener, noreferrer"
 			>
 				{icon}
-			</a>
+			</Link>
 			<div className={styles.iconDescription}>
-				<Link href={link} className={styles.link}>{description}</Link>
+				{description}
 			</div>
 		</div>
 	);

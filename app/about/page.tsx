@@ -4,11 +4,11 @@ import PageTemplate from '../components/PageTemplate';
 
 export default function About() {
 	return (
-		<PageTemplate 
+		<PageTemplate
 			heading='About'
 			content={
 				<div className={styles.card}>
-					<h2>Intro</h2>
+					<h2>📌 Intro</h2>
 					<hr />
 					<p>
 						I am currently a second year Computer Science major at the University
@@ -27,7 +27,7 @@ export default function About() {
 
 					<br />
 
-					<h2>Links</h2>
+					<h2>🔗 Links</h2>
 					<hr />
 					<p>
 						Resume:&nbsp;
@@ -58,7 +58,7 @@ export default function About() {
 
 					<br />
 
-					<h2>Get in Touch!</h2>
+					<h2>📨 Get in Touch!</h2>
 					<hr />
 					<p>
 						You can email me at&nbsp;
@@ -69,18 +69,29 @@ export default function About() {
 
 					<br />
 
-					<h2>Fun Facts About Me</h2>
+					<h2>😎 Fun Facts About Me</h2>
 					<hr />
 					<ul>
 						<li>
 							My favorite food is curently bread, and my favorite emoji is 🥖
 						</li>
+						{/* <li>
+							My high score on&nbsp;
+							<Link
+								href="https://arithmetic.zetamac.com"
+								target="_blank"
+								className={styles.link}
+							>
+								Zetamac
+							</Link>
+							&nbsp;with the default settings is currently 57 🧮
+						</li> */}
 						<li>
 							As of September 1, 2023, I am on a 2158 day Duolingo streak 🔥
 						</li>
 						<li>
-							I taught myself how to do all 3 splits! I can also do front split
-							backbends when I'm warmed up 💃
+							I taught myself how to do all 3 splits and front split
+							backbends 💃
 						</li>
 						<li>
 							I like to edit short, funny videos in my free time.
@@ -91,11 +102,12 @@ export default function About() {
 								className={styles.link}
 							>
 								here
-							</Link> 🎬
+							</Link>
+							&nbsp;🎬
 						</li>
 					</ul>
 				</div>
 			}
-		></PageTemplate>
+		/>
 	);
 };

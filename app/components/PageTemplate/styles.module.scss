@@ -1,25 +1,30 @@
 .pagetemplate {
   width: 100%;
+  max-width: 100rem;    // Including this in case the screen is really wide
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;    // double check this
+  align-items: center;
 
   .navContainer {
-    margin-top: 2rem;
+    height: 5rem;
+    margin-bottom: -2rem;
     width: 100%;
     text-align: left;
+    display: flex;
+    align-items: center;
 
     .link {
-      color: var(--light-purple);
       text-decoration: none;
-      font-size: var(--card-font-size);
+      font-size: 1.25rem;
+      
+      color: var(--light-purple);
       transform: scale(1);
       transition: var(--transition-time);
 
       &:hover {
-        color: var(--text-color);
-        transform: scale(1.25);                // come back to this later, not working
+        color: var(--light-purple-hover);
+        transform: scale(1.05);
         transition: var(--transition-time);
       }
     }

@@ -5,7 +5,7 @@ export const cards = [
 		imgAlt: 'UCSD ERSP',
 		role: 'Student Researcher',
 		company: 'UC San Diego',
-		date: 'Starting fall 2023',
+		date: 'Starting Sep 2023',
 	},
 	{
 		link: '/experience/ucsd-cs-tutor',
@@ -13,7 +13,7 @@ export const cards = [
 		imgAlt: 'UCSD CSE',
 		role: 'Computer Science Tutor',
 		company: 'UC San Diego',
-		date: 'April 2023 – Present',
+		date: 'Apr 2023 – Present',
 	},
 	{
 		link: '/experience/triton-software-engineering',
@@ -21,7 +21,7 @@ export const cards = [
 		imgAlt: 'TSE',
 		role: 'VP Operations, Developer',
 		company: 'Triton Software Engineering',
-		date: 'November 2022 – Present',
+		date: 'Nov 2022 – Present',
 	 },
 	 {
 		link: '/experience/acm-ucsd',
@@ -29,7 +29,7 @@ export const cards = [
 		imgAlt: 'ACM at UCSD',
 		role: 'Automation Developer',
 		company: 'ACM at UCSD',
-		date: 'December 2022 – Present',
+		date: 'Dec 2022 – Present',
 	 },
 	 {
 		link: '/experience/yonder-dynamics',
@@ -37,6 +37,6 @@ export const cards = [
 		imgAlt: 'Yonder Dynamics',
 		role: 'Developer',
 		company: 'Yonder Dynamics',
-		date: 'October 2022 – March 2023',
+		date: 'Oct 2022 – Mar 2023',
 	 }
 ];

@@ -1,0 +1,26 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main {
+  animation: fadeInAnimation ease var(--page-load-time);
+  width: 100vw;
+  padding: 3.5rem 7vw 0 7vw;
+
+  .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    padding-top: 4rem;
+  }
+}

@@ -1,67 +1,58 @@
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .circleIcon{
   .circleButton {
-    animation: fadeInAnimation ease 1s;
-    width: calc(50px + 1.7vw);
-    max-width: 80px;
-    height: calc(50px + 1.7vw);
-    max-height: 80px;
-    margin: 0px;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    
     background: linear-gradient(130deg, var(--light-purple), var(--light-blue));
-    color: darkslategray;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 7px 7px 7px var(--shadow-color);
 
-    scale: 1;
-    transform: translateY(0px);
-    transition: 0.3s;
+    transform: scale(1) translateY(0px);
+    transition: var(--transition-time);
   
     svg {
       display: block;
-      transform: scale(2.5);
+      color: darkslategray;
+      width: 100%;
+      height: 100%;
+    }
+
+    &:hover {
+      transform: scale(0.8) translateY(-0.7rem);
+      transition: var(--transition-time);
+    }
+
+    &:hover + .iconDescription {
+      opacity: 1;
+      transform: translateY(-0.7rem);
+      transition: var(--transition-time);
     }
   }
 
   .iconDescription {
-    margin-top: 10px;
+    margin-top: 0.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--light-blue-home);
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 500;
 
     opacity: 0;
-    transform: translateY(10px);
-    transition: 0.5s;
-
-    .link {
-      color: var(--light-blue-home);
-      text-decoration: none;
-      font-weight: 500;
-      transition: 3s;
-    }
+    transform: translateY(0.7rem);
+    transition: var(--transition-time);
   }
 
-  &:hover {
+  @media screen and (max-width: 500px) {
     .circleButton {
-      scale: 0.8;
-      transform: translateY(-10px);
-      transition: 0.5s;
-    }
-
-    .iconDescription {
-      opacity: 1;
-      transform: translateY(-10px);
-      transition: 0.5s;
+      width: 4rem;
+      height: 4rem;
+      padding: 0.75rem;
     }
   }
 }

@@ -1,17 +1,22 @@
-import BigCard from "@/app/components/BigCard";
+import PageTemplate from '@/app/components/PageTemplate';
+import BigProjectCard from '@/app/components/BigProjectCard';
 import styles from './style.module.scss';
 
 export default function LakGoodsTransport() {
 	return (
-		<BigCard
+		<PageTemplate
 			backNavLink="/projects"
-			title="LAK Goods Transport Application"
+			heading="LAK Goods Transport Application"
 			content={
-				<div className={styles.content}>
-					<p>
-						This page is still in progress. Stay tuned :)
-					</p>
-				</div>
+				<BigProjectCard
+					content={
+						<div className={styles.content}>
+							<p>
+								This page is still in progress. Stay tuned :)
+							</p>
+						</div>
+					}
+				/>
 			}
 		/>
 	);

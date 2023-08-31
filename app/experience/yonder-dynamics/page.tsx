@@ -1,17 +1,22 @@
-import BigCard from "@/app/components/BigCard";
+import PageTemplate from '@/app/components/PageTemplate';
+import BigProjectCard from '@/app/components/BigProjectCard';
 import styles from './style.module.scss';
 
 export default function Yonder() {
 	return (
-		<BigCard
-			backNavLink="/experience"
-			title="Developer at Yonder Dynamics"
+		<PageTemplate
+			backNavLink="/projects"
+			heading="Developer at Yonder Dynamics"
 			content={
-				<div className={styles.content}>
-					<p>
-						This page is still in progress. Stay tuned :)
-					</p>
-				</div>
+				<BigProjectCard
+					content={
+						<div className={styles.content}>
+							<p>
+								This page is still in progress. Stay tuned :)
+							</p>
+						</div>
+					}
+				/>
 			}
 		/>
 	);

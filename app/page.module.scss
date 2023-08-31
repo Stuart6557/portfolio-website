@@ -1,45 +1,42 @@
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.main {
-  width: 100vw;
-  height: 100vh;
+.container {
+  width: 100%;
+  min-height: calc(100vh - 3.5rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 1;
 
   h1 {
-    animation: fadeInAnimation ease 1s;
-    margin-top: 50px;
-    font-size: calc(12px + 3vw);
+    margin-top: 1.5rem;
+    font-size: 3rem;
     color: var(--light-purple-home);
   }
-
+  
   h2 {
-    animation: fadeInAnimation ease 1s;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 40px;
+    margin-top: 2rem;
+    font-size: 1.75rem;
     font-weight: 300;
-    font-size: calc(12px + 1vw);
+    color: var(--title-text-color);
+  }
+
+  .iconContainer {
+    margin-top: 3rem;
+    width: clamp(400px, 50%, 36rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .iconContainer {
+      width: 100%;
+    }
   }
 }
 
-.iconContainer {
-  margin-top: 50px;
-  width: 40vw;
-  max-width: 1000px;
-  min-width: 250px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+@media screen and (max-width: 400px) {
+  .container {
+    min-height: calc(100vh - 4rem);
+  }
 }

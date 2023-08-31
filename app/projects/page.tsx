@@ -1,24 +1,27 @@
 import styles from './page.module.scss';
 import { cards } from './cards';
-import ProjectCard from '../components/ProjectCard';
+import SmallProjectCard from '../components/SmallProjectCard';
+import PageTemplate from '../components/PageTemplate';
 
-export default function Page() {
+export default function Projects() {
 	return (
-		<main className={styles.main}>
-			<h1>Projects</h1>
-			<div className={styles.cardContainer}>
-				{cards.map(({link, imgSrc, imgAlt, title, date, description}, index) => (
-					<ProjectCard
-						link={link}
-						imgSrc={imgSrc}
-						imgAlt={imgAlt}
-						title={title}
-						date={date}
-						description={description}
-						key={`${link}-${index}`}
-					/>
-				))}
-			</div>
-		</main>
+		<PageTemplate
+			heading='Projects'
+			content={
+				<div className={styles.cardContainer}>
+					{cards.map(({link, imgSrc, imgAlt, title, date, description}, index) => (
+						<SmallProjectCard
+							link={link}
+							imgSrc={imgSrc}
+							imgAlt={imgAlt}
+							title={title}
+							date={date}
+							description={description}
+							key={`${link}-${index}`}
+						/>
+					))}
+				</div>
+			}
+		/>
 	);
 };

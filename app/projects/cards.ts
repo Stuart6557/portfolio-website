@@ -1,7 +1,9 @@
+import { prefix } from "../prefix";
+
 export const cards = [
 	{
 		link: '/projects/lak-goods-transport',
-		imgSrc: '/projects/lak-goods-transport/card-img.png',
+		imgSrc: `${prefix}/projects/lak-goods-transport/card-img.png`,
 		imgAlt: 'LAK Goods Transport Application',
 		title: 'LAK Goods Transport App',
 		date: 'Nov 2022 – Jun 2023',
@@ -9,7 +11,7 @@ export const cards = [
 	},
 	{
 		link: '/projects/event-qr-generator',
-		imgSrc: '/projects/event-qr-code-generator/card-img.png',
+		imgSrc: `${prefix}/projects/event-qr-code-generator/card-img.png`,
 		imgAlt: 'Event QR Code Generator',
 		title: 'Event QR Code Generator',
 		date: 'Jan 2023 – May 2023',
@@ -17,7 +19,7 @@ export const cards = [
 	},
 	{
 		link: '/projects/update-grad-date-automator',
-		imgSrc: '/projects/update-grad-date-automator/card-img.png',
+		imgSrc: `${prefix}/projects/update-grad-date-automator/card-img.png`,
 		imgAlt: 'Update Grad Date Automator',
 		title: 'Update Grad Date Automator',
 		date: 'Jul 2023',
@@ -25,7 +27,7 @@ export const cards = [
 	 },
 	 {
 		link: '/projects/green-guide',
-		imgSrc: '/projects/green-guide/card-img.png',
+		imgSrc: `${prefix}/projects/green-guide/card-img.png`,
 		imgAlt: 'Green Guide',
 		title: 'Green Guide',
 		date: 'Apr 2023',
@@ -33,7 +35,7 @@ export const cards = [
 	 },
 	 {
 		link: '/projects/toxic-comment-classification',
-		imgSrc: '/projects/toxic-comment-classification/card-img.png',
+		imgSrc: `${prefix}/projects/toxic-comment-classification/card-img.png`,
 		imgAlt: 'Toxic Comment Classification',
 		title: 'Toxic Comment Classification',
 		date: 'Jan 2023 – Apr 2023',
@@ -41,7 +43,7 @@ export const cards = [
 	 },
 	 {
 		link: '/projects/finance-buddy',
-		imgSrc: '/projects/finance-buddy/card-img.png',
+		imgSrc: `${prefix}/projects/finance-buddy/card-img.png`,
 		imgAlt: 'Finance Buddy',
 		title: 'Finance Buddy',
 		date: 'Oct 2022 – Nov 2022',

@@ -23,8 +23,8 @@ export default function ExperienceCard({
 		<Link href={link} className={styles.link}>
 			<div className={styles.experienceCard}>
 				<div className={styles.cardContent}>
-					{/* Need this nested imgContainer div here because otherwise the Image
-					fill property would cause the img to not leave a whitespace around it */}
+					{/* Need this nested imgContainer div here because the card would look
+					really janky otherwise */}
 					<div className={styles.imgContainer}>
 						<Image fill={true} sizes='100vw' src={imgSrc} alt={imgAlt} className={styles.image} />
 					</div>

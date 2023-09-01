@@ -6,16 +6,6 @@ Links
 
 - Brainstorm: https://docs.google.com/document/d/1e5TlsFWvToIPEYEvopLbQx575pvNQGEsVUIYT2KRM2s/edit?usp=sharing
 
-- scrollreveal: https://scrollrevealjs.org
-
-- particles: https://github.com/VincentGarreau/particles.js/
-
-https://www.jsdelivr.com/package/npm/particles.js
-
-- example: https://github.com/jigar-sable/Portfolio-Website
-
-- frontend bootcamp: https://github.com/Stuart6557/frontend-bootcamp
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

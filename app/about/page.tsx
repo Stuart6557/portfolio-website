@@ -14,8 +14,7 @@ export default function About() {
 						I am currently a second year Computer Science major at the University
 						of California, San Diego. As a curious individual who is always looking
 						forward to learning new things, I chose computer science because there
-						is always something more to learn, discover, and create, and it has the
-						potential to fuse creativity with innovation. I am passionate about
+						is always something more to discover and create. I am passionate about
 						using my skills and technology for social good and to make an impact.
 					</p>
 					<p>

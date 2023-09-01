@@ -1,26 +1,98 @@
+// .link {
+//   text-decoration: none;
+
+//   .smallProjectCard {
+//     width: 100%;
+//     background: linear-gradient(130deg, var(--light-blue), var(--light-purple));
+//     border-radius: 30px;
+
+//     box-shadow: 7px 7px 7px var(--shadow-color);
+//     transform: scale(1);
+//     transition: var(--transition-time);
+
+//     .imgDiv {
+//       aspect-ratio: 1 / 1;
+//       width: 100%;
+//       border-radius: 30px 30px 0px 0px;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+
+//       .imgContainer {
+//         aspect-ratio: 1 / 1;
+//         width: 95%;
+//         border-radius: 30px 30px 15px 15px;
+//         position: relative;    // Needed for fill={true} to work on Image components
+//       }
+
+//       .image {
+//         border-radius: 30px 30px 15px 15px;
+//       }
+//     }
+
+//     .description {
+//       padding: 0 5% 0.5rem 5%;
+
+//       h2,
+//       h3,
+//       p {
+//         margin: 0.5rem 0 0 0;
+//       }
+
+//       h2 {
+//         color: var(--card-title-color);
+//         font-size: 1.35rem;
+//         font-weight: 600;
+//       }
+
+//       h3 {
+//         color: var(--card-text-color);
+//         font-size: 1.25rem;
+//         font-weight: 500;
+//       }
+    
+//       p {
+//         color: var(--card-text-color);
+//         font-size: 1.15rem;
+//       }
+//     }
+
+//     &:hover {
+//       box-shadow: 13px 13px 13px var(--shadow-color);
+//       transform: scale(1.02);
+//       transition: var(--transition-time);
+//     }
+//   }
+// }
+
 .link {
   text-decoration: none;
+  display: flex;
+  // Set main axis to verticle axis so flex: 1 works later on
+  flex-direction: column;
 
   .smallProjectCard {
+    flex: 1;    // So all cards on one row have the same height
     width: 100%;
     background: linear-gradient(130deg, var(--light-blue), var(--light-purple));
     border-radius: 30px;
+    padding: 10px 10px 0 10px;
 
     box-shadow: 7px 7px 7px var(--shadow-color);
     transform: scale(1);
     transition: var(--transition-time);
 
-    .imgDiv {
-      aspect-ratio: 1 / 1;
+    .cardContent {
       width: 100%;
-      border-radius: 30px 30px 0px 0px;
+      border-radius: 30px 30px 30px 30px;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
 
       .imgContainer {
         aspect-ratio: 1 / 1;
-        width: 95%;
+        width: 100%;
         border-radius: 30px 30px 15px 15px;
         position: relative;    // Needed for fill={true} to work on Image components
       }
@@ -28,32 +100,32 @@
       .image {
         border-radius: 30px 30px 15px 15px;
       }
-    }
 
-    .description {
-      padding: 0 5% 0.5rem 5%;
-
-      h2,
-      h3,
-      p {
-        margin: 0.5rem 0 0 0;
-      }
-
-      h2 {
-        color: var(--card-title-color);
-        font-size: 1.35rem;
-        font-weight: 600;
-      }
-
-      h3 {
-        color: var(--card-text-color);
-        font-size: 1.25rem;
-        font-weight: 500;
-      }
-    
-      p {
-        color: var(--card-text-color);
-        font-size: 1.15rem;
+      .description {
+        flex: 1;    // So all cards on one row have the same height
+  
+        h2,
+        h3,
+        p {
+          margin: 0.5rem 0 0 0;
+        }
+  
+        h2 {
+          color: var(--card-title-color);
+          font-size: 1.35rem;
+          font-weight: 600;
+        }
+  
+        h3 {
+          color: var(--card-text-color);
+          font-size: 1.25rem;
+          font-weight: 500;
+        }
+      
+        p {
+          color: var(--card-text-color);
+          font-size: 1.15rem;
+        }
       }
     }
 

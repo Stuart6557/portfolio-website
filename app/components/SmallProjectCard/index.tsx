@@ -20,20 +20,37 @@ export default function SmallProjectCard({
 	description
 }: SmallProjectCardProps) {
 	return (
+		// <Link href={link} className={styles.link}>
+		// 	<div className={styles.smallProjectCard}>
+		// 		<div className={styles.imgDiv}>
+		// 			{/* Need this nested imgContainer div here because otherwise the Image
+		// 			fill property would cause the img to not leave a whitespace around it */}
+		// 			<div className={styles.imgContainer}>
+		// 				<Image fill={true} sizes='100vw' src={imgSrc} alt={imgAlt} className={styles.image} />
+		// 			</div>
+		// 		</div>
+		// 		<div className={styles.description}>
+		// 			<h2>{title}</h2>
+		// 			<h3>{date}</h3>
+		// 			<p>{description}</p>
+		// 			<br />
+		// 		</div>
+		// 	</div>
+		// </Link>
 		<Link href={link} className={styles.link}>
 			<div className={styles.smallProjectCard}>
-				<div className={styles.imgDiv}>
+				<div className={styles.cardContent}>
 					{/* Need this nested imgContainer div here because otherwise the Image
 					fill property would cause the img to not leave a whitespace around it */}
 					<div className={styles.imgContainer}>
 						<Image fill={true} sizes='100vw' src={imgSrc} alt={imgAlt} className={styles.image} />
 					</div>
-				</div>
-				<div className={styles.description}>
-					<h2>{title}</h2>
-					<h3>{date}</h3>
-					<p>{description}</p>
-					<br />
+					<div className={styles.description}>
+						<h2>{title}</h2>
+						<h3>{date}</h3>
+						<p>{description}</p>
+						<br />
+					</div>
 				</div>
 			</div>
 		</Link>

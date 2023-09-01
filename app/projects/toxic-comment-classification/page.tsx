@@ -1,5 +1,5 @@
 import PageTemplate from '@/app/components/PageTemplate';
-import BigProjectCard from '@/app/components/BigProjectCard';
+import BigCard from '@/app/components/BigCard';
 import styles from './style.module.scss';
 
 export default function ToxicCommentClassification() {
@@ -8,7 +8,7 @@ export default function ToxicCommentClassification() {
 			backNavLink="/projects"
 			heading="Toxic Comment Classification"
 			content={
-				<BigProjectCard
+				<BigCard
 					content={
 						<div className={styles.content}>
 							<p>

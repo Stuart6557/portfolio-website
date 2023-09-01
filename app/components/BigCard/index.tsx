@@ -1,13 +1,13 @@
 import { ReactElement } from 'react';
 import styles from './style.module.scss';
 
-interface BigProjectCardProps {
+interface BigCardProps {
   content: ReactElement;
 }
 
-export default function BigProjectCard({content}: BigProjectCardProps) {
+export default function BigCard({content}: BigCardProps) {
 	return (
-		<div className={styles.bigProjectCard}>
+		<div className={styles.bigCard}>
 			{content}
 		</div>
 	);

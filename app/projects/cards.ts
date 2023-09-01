@@ -3,7 +3,7 @@ export const cards = [
 		link: '/projects/lak-goods-transport',
 		imgSrc: '/projects/lak-goods-transport/card-img.png',
 		imgAlt: 'LAK Goods Transport Application',
-		title: 'LAK Goods Transport Application',
+		title: 'LAK Goods Transport App',
 		date: 'Nov 2022 – Jun 2023',
 		description: 'App that facilitates transportation of goods'
 	},

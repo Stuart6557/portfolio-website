@@ -4,7 +4,7 @@
   // Set main axis to verticle axis so flex: 1 works later on
   flex-direction: column;
 
-  .smallProjectCard {
+  .ProjectCard {
     flex: 1;    // So all cards on one row have the same height
     width: 100%;
     background: linear-gradient(130deg, var(--light-blue), var(--light-purple));

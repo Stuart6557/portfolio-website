@@ -1,5 +1,5 @@
 import PageTemplate from '@/app/components/PageTemplate';
-import BigProjectCard from '@/app/components/BigProjectCard';
+import BigCard from '@/app/components/BigCard';
 import styles from './style.module.scss';
 
 export default function Yonder() {
@@ -8,7 +8,7 @@ export default function Yonder() {
 			backNavLink="/projects"
 			heading="Developer at Yonder Dynamics"
 			content={
-				<BigProjectCard
+				<BigCard
 					content={
 						<div className={styles.content}>
 							<p>

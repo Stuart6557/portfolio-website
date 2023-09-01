@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from './style.module.scss';
 import Image from 'next/image';
 
-interface SmallProjectCardProps {
+interface ProjectCardProps {
   link: string;
   imgSrc: string;
   imgAlt: string;
@@ -11,17 +11,17 @@ interface SmallProjectCardProps {
 	description: string;
 }
 
-export default function SmallProjectCard({
+export default function ProjectCard({
 	link,
 	imgSrc,
 	imgAlt,
 	title,
 	date,
 	description
-}: SmallProjectCardProps) {
+}: ProjectCardProps) {
 	return (
 		<Link href={link} className={styles.link}>
-			<div className={styles.smallProjectCard}>
+			<div className={styles.ProjectCard}>
 				<div className={styles.cardContent}>
 					{/* Need this nested imgContainer div here because otherwise the Image
 					fill property would cause the img to not leave a whitespace around it */}

@@ -1,6 +1,6 @@
 # portfolio-website
 
-This site is live at [https://stuart6557.github.io/portfolio-website/](https://stuart6557.github.io/portfolio-website/)!
+This site is live at [https://stuart6557.github.io/portfolio-website/](https://stuart6557.github.io/portfolio-website/)
 
 Links
 

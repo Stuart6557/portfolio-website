@@ -2,6 +2,14 @@ import { prefix } from "../prefix";
 
 export const cards = [
 	{
+		link: '/projects/portfolio-website',
+		imgSrc: `${prefix}/projects/portfolio-website/card-img.png`,
+		imgAlt: 'Portfolio Website',
+		title: 'Portfolio Website',
+		date: 'Jun 2023 – Present',
+		description: 'This website :)'
+	},
+	{
 		link: '/projects/lak-goods-transport',
 		imgSrc: `${prefix}/projects/lak-goods-transport/card-img.png`,
 		imgAlt: 'LAK Goods Transport Application',

@@ -6,6 +6,7 @@ export default function GreenGuide() {
 	return (
 		<PageTemplate
 			backNavLink="/projects"
+			backNav="Projects"
 			heading="Green Guide"
 			content={
 				<BigCard

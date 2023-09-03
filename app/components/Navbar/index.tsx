@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from './styles.module.scss';
+import { prefix } from "@/app/prefix";
 
 export default function Navbar() {
 	return (
@@ -17,7 +18,7 @@ export default function Navbar() {
 				<Link href="/projects" className={styles.link}>Projects</Link>
 			</div>
 			<div>
-				<Link href="resume.pdf" target="_blank" className={styles.link}>Resume</Link>
+				<Link href={`${prefix}/resume.pdf`} target="_blank" className={styles.link}>Resume</Link>
 			</div>
 		</nav>
 	);

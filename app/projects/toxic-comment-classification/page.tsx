@@ -6,6 +6,7 @@ export default function ToxicCommentClassification() {
 	return (
 		<PageTemplate
 			backNavLink="/projects"
+			backNav="Projects"
 			heading="Toxic Comment Classification"
 			content={
 				<BigCard

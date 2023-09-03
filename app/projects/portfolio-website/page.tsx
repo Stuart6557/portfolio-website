@@ -6,6 +6,7 @@ export default function PortfolioWebsite() {
 	return (
 		<PageTemplate
 			backNavLink="/projects"
+			backNav="Projects"
 			heading="Portfolio Website"
 			content={
 				<BigCard

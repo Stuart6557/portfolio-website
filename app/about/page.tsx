@@ -30,7 +30,7 @@ export default function About() {
 					<hr />
 					<p>
 						Resume:&nbsp;
-						<Link href="resume.pdf" target="_blank" className={styles.link}>
+						<Link href="/resume.pdf" target="_blank" className={styles.link}>
 							resume.pdf
 						</Link>
 					</p>

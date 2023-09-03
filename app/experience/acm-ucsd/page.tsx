@@ -6,6 +6,7 @@ export default function ACMUcsd() {
 	return (
 		<PageTemplate
 			backNavLink="/experience"
+			backNav="Experience"
 			heading="Automation Developer at ACM"
 			content={
 				<BigCard

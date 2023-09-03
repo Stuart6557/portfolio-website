@@ -6,6 +6,7 @@ export default function FinanceBuddy() {
 	return (
 		<PageTemplate
 			backNavLink="/projects"
+			backNav="Projects"
 			heading="Finance Buddy"
 			content={
 				<BigCard

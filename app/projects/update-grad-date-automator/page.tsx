@@ -6,6 +6,7 @@ export default function UpdateGradDateAutomator() {
 	return (
 		<PageTemplate
 			backNavLink="/projects"
+			backNav="Projects"
 			heading="Update Grad Date Automator"
 			content={
 				<BigCard

@@ -6,6 +6,7 @@ export default function ERSP() {
 	return (
 		<PageTemplate
 			backNavLink="/experience"
+			backNav="Experience"
 			heading="Student Researcher at UC San Diego"
 			content={
 				<BigCard

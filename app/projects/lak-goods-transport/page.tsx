@@ -6,6 +6,7 @@ export default function LakGoodsTransport() {
 	return (
 		<PageTemplate
 			backNavLink="/projects"
+			backNav="Projects"
 			heading="LAK Goods Transport Application"
 			content={
 				<BigCard

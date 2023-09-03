@@ -6,6 +6,7 @@ export default function CSTutor() {
 	return (
 		<PageTemplate
 			backNavLink="/experience"
+			backNav="Experience"
 			heading="Computer Science Tutor at UC San Diego"
 			content={
 				<BigCard

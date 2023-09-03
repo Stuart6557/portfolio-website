@@ -8,22 +8,6 @@ export const cards = [
 		description: 'This website :)'
 	},
 	{
-		link: '/projects/lak-goods-transport',
-		imgSrc: '/projects/lak-goods-transport/card-img.png',
-		imgAlt: 'LAK Goods Transport Application',
-		title: 'LAK Goods Transport App',
-		date: 'Nov 2022 – Jun 2023',
-		description: 'App that facilitates transportation of goods'
-	},
-	{
-		link: '/projects/event-qr-generator',
-		imgSrc: '/projects/event-qr-code-generator/card-img.png',
-		imgAlt: 'Event QR Code Generator',
-		title: 'Event QR Code Generator',
-		date: 'Jan 2023 – May 2023',
-		description: 'Generates QR Codes for ACM events'
-	},
-	{
 		link: '/projects/update-grad-date-automator',
 		imgSrc: '/projects/update-grad-date-automator/card-img.png',
 		imgAlt: 'Update Grad Date Automator',
@@ -40,6 +24,22 @@ export const cards = [
 		description: 'Sustainability web app for LA Hacks'
 	 },
 	 {
+		link: '/projects/lak-goods-transport',
+		imgSrc: '/projects/lak-goods-transport/card-img.png',
+		imgAlt: 'LAK Goods Transport Application',
+		title: 'LAK Goods Transport App',
+		date: 'Nov 2022 – Jun 2023',
+		description: 'App that facilitates transportation of goods'
+	},
+	{
+		link: '/projects/event-qr-generator',
+		imgSrc: '/projects/event-qr-code-generator/card-img.png',
+		imgAlt: 'Event QR Code Generator',
+		title: 'Event QR Code Generator',
+		date: 'Jan 2023 – May 2023',
+		description: 'Generates QR Codes for ACM events'
+	},
+	{
 		link: '/projects/toxic-comment-classification',
 		imgSrc: '/projects/toxic-comment-classification/card-img.png',
 		imgAlt: 'Toxic Comment Classification',

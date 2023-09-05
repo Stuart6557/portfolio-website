@@ -41,7 +41,7 @@ export default function About() {
 							target="_blank"
 							className={styles.link}
 						>
-							https://www.linkedin.com/in/vivian-liu-336148202/
+							www.linkedin.com/in/vivian-liu-336148202/
 						</Link>
 					</p>
 					<p>
@@ -51,7 +51,7 @@ export default function About() {
 							target="_blank"
 							className={styles.link}
 						>
-							https://github.com/Stuart6557
+							github.com/Stuart6557
 						</Link>
 					</p>
 

@@ -1,12 +1,12 @@
 export const cards = [
 	{
-		link: '/projects/portfolio-website',
-		imgSrc: '/projects/portfolio-website/card-img.png',
-		imgAlt: 'Portfolio Website',
-		title: 'Portfolio Website',
-		date: 'Jun 2023 – Present',
-		description: 'This website :)'
-	},
+		link: '/projects/green-guide',
+		imgSrc: '/projects/green-guide/card-img.png',
+		imgAlt: 'Green Guide',
+		title: 'Green Guide',
+		date: 'Apr 2023',
+		description: 'Sustainability web app for LA Hacks'
+	 },
 	{
 		link: '/projects/update-grad-date-automator',
 		imgSrc: '/projects/update-grad-date-automator/card-img.png',
@@ -16,20 +16,12 @@ export const cards = [
 		description: 'Automates a tedious job for a student org'
 	 },
 	 {
-		link: '/projects/green-guide',
-		imgSrc: '/projects/green-guide/card-img.png',
-		imgAlt: 'Green Guide',
-		title: 'Green Guide',
-		date: 'Apr 2023',
-		description: 'Sustainability web app for LA Hacks'
-	 },
-	 {
-		link: '/projects/lak-goods-transport',
-		imgSrc: '/projects/lak-goods-transport/card-img.png',
-		imgAlt: 'LAK Goods Transport Application',
-		title: 'LAK Goods Transport App',
-		date: 'Nov 2022 – Jun 2023',
-		description: 'App that facilitates transportation of goods'
+		link: '/projects/portfolio-website',
+		imgSrc: '/projects/portfolio-website/card-img.png',
+		imgAlt: 'Portfolio Website',
+		title: 'Portfolio Website',
+		date: 'Jun 2023 – Present',
+		description: 'This website :)'
 	},
 	{
 		link: '/projects/event-qr-generator',
@@ -38,6 +30,14 @@ export const cards = [
 		title: 'Event QR Code Generator',
 		date: 'Jan 2023 – May 2023',
 		description: 'Generates QR Codes for ACM events'
+	},
+	{
+		link: '/projects/lak-goods-transport',
+		imgSrc: '/projects/lak-goods-transport/card-img.png',
+		imgAlt: 'LAK Goods Transport Application',
+		title: 'LAK Goods Transport App',
+		date: 'Nov 2022 – Jun 2023',
+		description: 'App that facilitates transportation of goods'
 	},
 	{
 		link: '/projects/toxic-comment-classification',

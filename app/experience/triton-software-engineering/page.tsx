@@ -14,6 +14,9 @@ export default function TSE() {
 						<div className={styles.content}>
 							<p>
 								This page is still in progress. Stay tuned :)
+								{/* Playbook
+								Women in TSE
+								Shameless plug */}
 							</p>
 						</div>
 					}

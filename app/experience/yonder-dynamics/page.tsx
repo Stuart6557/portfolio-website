@@ -14,6 +14,7 @@ export default function Yonder() {
 						<div className={styles.content}>
 							<p>
 								This page is still in progress. Stay tuned :)
+								{/* Shameless plug */}
 							</p>
 						</div>
 					}

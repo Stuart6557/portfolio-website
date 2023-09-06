@@ -53,6 +53,6 @@ export const cards = [
 		imgAlt: 'Finance Buddy',
 		title: 'Finance Buddy',
 		date: 'Oct 2022 – Nov 2022',
-		description: 'Full-stack expense tracker'
+		description: 'Full stack expense tracker'
 	 }
 ];

@@ -1,4 +1,64 @@
 .content {
-  width: 100%;
-  text-align: center; // remove later
+  h2 {
+    margin: 0.4rem 0 0.4rem 0;
+  }
+
+  p {
+    color: var(--card-text-color);
+    font-size: 1rem;
+    margin: 0.4rem 0 0.4rem 0;
+  }
+
+  hr {
+    border: 0.5px solid gray;
+  }
+
+  ul {
+    padding-left: 1rem;
+
+    li {
+      color: var(--card-text-color);
+      font-size: 1rem;
+      margin-top: 0.2rem;
+    }
+  }
+
+  .link {
+    color: var(--link-color);
+
+    &:hover {
+      color: var(--link-hover-color);
+    }
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div {
+      height: 250px;
+      margin: 5px;
+      position: relative;    // Needed for fill={true} to work on Image components
+
+      .image {
+        object-fit: contain;
+      }
+    }
+
+    .createContainer {
+      aspect-ratio: 2714 / 1336;
+    }
+
+    .viewContainer {
+      aspect-ratio: 2725 / 1336;
+    }
+
+    @media screen and (max-width: 800px) {
+      div {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 }

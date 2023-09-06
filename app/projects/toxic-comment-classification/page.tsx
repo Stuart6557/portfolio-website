@@ -13,7 +13,12 @@ export default function ToxicCommentClassification() {
 					content={
 						<div className={styles.content}>
 							<p>
-								This page is still in progress. Stay tuned :)
+								This page is still in progress. Stay tuned :)ead more about my
+								{/* ACM experience&nbsp;
+								<Link href="/experience/acm-ucsd" className={styles.link}>
+										here
+								</Link>
+								. */}
 							</p>
 						</div>
 					}

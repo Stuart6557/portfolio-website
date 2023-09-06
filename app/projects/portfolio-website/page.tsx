@@ -14,7 +14,7 @@ export default function PortfolioWebsite() {
 						<div className={styles.content}>
 							<p>
 								This page is still in progress. Stay tuned :)
-								{/* CSS units, SSR, caching */}
+								{/* CSS units, SSR, caching, responsive web design */}
 							</p>
 						</div>
 					}

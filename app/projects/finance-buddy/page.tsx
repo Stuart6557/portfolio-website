@@ -50,7 +50,7 @@ export default function FinanceBuddy() {
 										target="_blank"
 										className={styles.link}
 									>
-											GitHub repo
+										GitHub repo
 									</Link>
 								</li>
 							</ul>
@@ -60,7 +60,7 @@ export default function FinanceBuddy() {
 							<h2>🖼️ Images</h2>
 							<hr />
 							<div className={styles.images}>
-							<div className={styles.createContainer}>
+								<div className={styles.createContainer}>
 									<Image
 										fill={true}
 										src="/projects/finance-buddy/create-2.png"

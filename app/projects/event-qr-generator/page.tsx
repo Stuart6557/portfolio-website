@@ -76,7 +76,7 @@ export default function EventQrGenerator() {
 										target="_blank"
 										className={styles.link}
 									>
-											GitHub repo
+										GitHub repo
 									</Link>
 								</li>
 							</ul>
@@ -86,7 +86,7 @@ export default function EventQrGenerator() {
 							<h2>🖼️ Images</h2>
 							<hr />
 							<div className={styles.images}>
-							<div className={styles.banquetDisplayContainer}>
+								<div className={styles.banquetDisplayContainer}>
 									<Image
 										fill={true}
 										src="/projects/event-qr-code-generator/banquet-display.png"

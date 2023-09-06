@@ -37,8 +37,10 @@
     flex-wrap: wrap;
 
     div {
-      height: 250px;
+      min-height: 250px;
+      max-height: 400px;
       margin: 5px;
+      flex-grow: 1;
       position: relative;    // Needed for fill={true} to work on Image components
 
       .image {
@@ -54,10 +56,11 @@
       aspect-ratio: 2725 / 1336;
     }
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
       div {
         width: 100%;
-        height: auto;
+        min-height: initial;
+        max-height: initial;
       }
     }
   }

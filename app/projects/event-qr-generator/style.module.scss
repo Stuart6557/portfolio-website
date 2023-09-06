@@ -37,8 +37,10 @@
     flex-wrap: wrap;
 
     div {
-      height: 300px;
+      min-height: 250px;
+      max-height: 400px;
       margin: 5px;
+      flex-grow: 1;
       position: relative;    // Needed for fill={true} to work on Image components
 
       .image {
@@ -51,17 +53,18 @@
     }
 
     .checkinCommandContainer {
-      aspect-ratio: 1742 / 1032;
+      aspect-ratio: 1434 / 1042;
     }
 
     .revampAnnouncementContainer {
       aspect-ratio: 1746 / 904;
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
       div {
         width: 100%;
-        height: auto;
+        min-height: initial;
+        max-height: initial;
       }
     }
   }

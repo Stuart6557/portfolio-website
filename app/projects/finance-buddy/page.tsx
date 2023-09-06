@@ -14,6 +14,45 @@ export default function FinanceBuddy() {
 				<BigCard
 					content={
 						<div className={styles.content}>
+							<h2>🔗 Links</h2>
+							<hr />
+							<ul>
+								<li>
+									<Link
+										href="https://github.com/Stuart6557/Finance-Buddy"
+										target="_blank"
+										className={styles.link}
+									>
+										GitHub repo
+									</Link>
+								</li>
+							</ul>
+
+							<br />
+
+							<h2>🖼️ Images</h2>
+							<hr />
+							<div className={styles.images}>
+								<div className={styles.createContainer}>
+									<Image
+										fill={true}
+										src="/projects/finance-buddy/create-2.png"
+										alt="Create Purchase"
+										className={styles.image}
+									/>
+								</div>
+								<div className={styles.viewContainer}>
+									<Image
+										fill={true}
+										src="/projects/finance-buddy/view.png"
+										alt="View Purchase Page"
+										className={styles.image}
+									/>
+								</div>
+							</div>
+
+							<br />
+
 							<h2>📚 Description</h2>
 							<hr />
 							<p>
@@ -38,45 +77,6 @@ export default function FinanceBuddy() {
 								Before this, I had zero knowledge of React and backend and databases. I
 								definitely learned a lot and recommend the Hack School experience!
 							</p>
-
-							<br />
-
-							<h2>🔗 Links</h2>
-							<hr />
-							<ul>
-								<li>
-									<Link
-										href="https://github.com/Stuart6557/Finance-Buddy"
-										target="_blank"
-										className={styles.link}
-									>
-										GitHub repo
-									</Link>
-								</li>
-							</ul>
-
-							<br />
-
-							<h2>🖼️ Images</h2>
-							<hr />
-							<div className={styles.images}>
-								<div className={styles.createContainer}>
-									<Image
-										fill={true}
-										src="/projects/finance-buddy/create-2.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-								<div className={styles.viewContainer}>
-									<Image
-										fill={true}
-										src="/projects/finance-buddy/view.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-							</div>
 						</div>
 					}
 				/>

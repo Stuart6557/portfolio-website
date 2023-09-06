@@ -14,6 +14,94 @@ export default function GreenGuide() {
 				<BigCard
 					content={
 						<div className={styles.content}>
+							<h2>🔗 Links</h2>
+							<hr />
+							<ul>
+								<li>
+									<Link
+										href="https://devpost.com/software/green-guide"
+										target="_blank"
+										className={styles.link}
+									>
+										Devpost submission
+									</Link>
+								</li>
+								<li>
+									<Link
+										href="https://github.com/Stuart6557/LA-Hacks-2023"
+										target="_blank"
+										className={styles.link}
+									>
+										GitHub repo
+									</Link>
+								</li>
+							</ul>
+
+							<br />
+
+							<h2>🖼️ Images</h2>
+							<hr />
+							<div className={styles.images}>
+								<div className={styles.homeContainer}>
+									<Image
+										fill={true}
+										src="/projects/green-guide/home.png"
+										alt="Home Page"
+										className={styles.image}
+									/>
+								</div>
+								<div className={styles.cardsContainer}>
+									<Image
+										fill={true}
+										src="/projects/green-guide/cards.png"
+										alt="Waste Sorting Guide"
+										className={styles.image}
+									/>
+								</div>
+								<div className={styles.signupContainer}>
+									<Image
+										fill={true}
+										src="/projects/green-guide/signup.png"
+										alt="Signup Page"
+										className={styles.image}
+									/>
+								</div>
+								<div className={styles.loginContainer}>
+									<Image
+										fill={true}
+										src="/projects/green-guide/login.png"
+										alt="Login Page"
+										className={styles.image}
+									/>
+								</div>
+								<div className={styles.profileContainer}>
+									<Image
+										fill={true}
+										src="/projects/green-guide/profile.png"
+										alt="Profile Page"
+										className={styles.image}
+									/>
+								</div>
+								<div className={styles.minigameContainer}>
+									<Image
+										fill={true}
+										src="/projects/green-guide/mini-game.png"
+										alt="Mini Game"
+										className={styles.image}
+									/>
+								</div>
+								<div className={styles.trackerContainer}>
+									<Image
+										fill={true}
+										src="/projects/green-guide/tracker.png"
+										alt="Recycling Tracker"
+										className={styles.image}
+									/>
+								</div>
+							</div>
+
+							<br />
+
 							<h2>📚 Description</h2>
 							<hr />
 							<p>
@@ -53,94 +141,6 @@ export default function GreenGuide() {
 								variables, and remove any hard coded values to have a more responsive web
 								design.
 							</p>
-
-							<br />
-
-							<h2>🔗 Links</h2>
-							<hr />
-							<ul>
-								<li>
-									<Link
-										href="https://devpost.com/software/green-guide"
-										target="_blank"
-										className={styles.link}
-									>
-										Devpost submission
-									</Link>
-								</li>
-								<li>
-									<Link
-										href="https://github.com/Stuart6557/LA-Hacks-2023"
-										target="_blank"
-										className={styles.link}
-									>
-										GitHub repo
-									</Link>
-								</li>
-							</ul>
-
-							<br />
-
-							<h2>🖼️ Images</h2>
-							<hr />
-							<div className={styles.images}>
-								<div className={styles.homeContainer}>
-									<Image
-										fill={true}
-										src="/projects/green-guide/home.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-								<div className={styles.cardsContainer}>
-									<Image
-										fill={true}
-										src="/projects/green-guide/cards.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-								<div className={styles.signupContainer}>
-									<Image
-										fill={true}
-										src="/projects/green-guide/signup.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-								<div className={styles.loginContainer}>
-									<Image
-										fill={true}
-										src="/projects/green-guide/login.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-								<div className={styles.profileContainer}>
-									<Image
-										fill={true}
-										src="/projects/green-guide/profile.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-								<div className={styles.minigameContainer}>
-									<Image
-										fill={true}
-										src="/projects/green-guide/mini-game.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-								<div className={styles.trackerContainer}>
-									<Image
-										fill={true}
-										src="/projects/green-guide/tracker.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-							</div>
 						</div>
 					}
 				/>

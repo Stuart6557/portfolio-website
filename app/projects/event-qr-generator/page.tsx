@@ -14,6 +14,63 @@ export default function EventQrGenerator() {
 				<BigCard
 					content={
 						<div className={styles.content}>
+							<h2>🔗 Links</h2>
+							<hr />
+							<ul>
+								<li>
+									<Link
+										href="https://www.figma.com/file/Iyc2BzYEBFjg2fLjC2ZRRQ/QR-Code-iPad-Checkin?type=design&node-id=0-1&mode=design&t=w1u2YRpOIIktPjvm-0"
+										target="_blank"
+										className={styles.link}
+									>
+										Figma design
+									</Link>
+								</li>
+								<li>
+									BreadBot&nbsp;
+									<Link
+										href="https://github.com/acmucsd/discord-bot"
+										target="_blank"
+										className={styles.link}
+									>
+										GitHub repo
+									</Link>
+								</li>
+							</ul>
+
+							<br />
+
+							<h2>🖼️ Images</h2>
+							<hr />
+							<div className={styles.images}>
+								<div className={styles.banquetDisplayContainer}>
+									<Image
+										fill={true}
+										src="/projects/event-qr-code-generator/banquet-display.png"
+										alt="Banquet Display"
+										className={styles.image}
+									/>
+								</div>
+								<div className={styles.checkinCommandContainer}>
+									<Image
+										fill={true}
+										src="/projects/event-qr-code-generator/checkin-command.png"
+										alt="Command Demo"
+										className={styles.image}
+									/>
+								</div>
+								<div className={styles.revampAnnouncementContainer}>
+									<Image
+										fill={true}
+										src="/projects/event-qr-code-generator/revamp-announcement.png"
+										alt="Revamp Announcement"
+										className={styles.image}
+									/>
+								</div>
+							</div>
+
+							<br />
+
 							<h2>📚 Description</h2>
 							<hr />
 							<p>
@@ -54,63 +111,6 @@ export default function EventQrGenerator() {
 								</Link>
 								&nbsp;that caused users to have to click the login button twice to sign in.
 							</p>
-
-							<br />
-
-							<h2>🔗 Links</h2>
-							<hr />
-							<ul>
-								<li>
-									<Link
-										href="https://www.figma.com/file/Iyc2BzYEBFjg2fLjC2ZRRQ/QR-Code-iPad-Checkin?type=design&node-id=0-1&mode=design&t=w1u2YRpOIIktPjvm-0"
-										target="_blank"
-										className={styles.link}
-									>
-										Figma
-									</Link>
-								</li>
-								<li>
-									BreadBot&nbsp;
-									<Link
-										href="https://github.com/acmucsd/discord-bot"
-										target="_blank"
-										className={styles.link}
-									>
-										GitHub repo
-									</Link>
-								</li>
-							</ul>
-
-							<br />
-
-							<h2>🖼️ Images</h2>
-							<hr />
-							<div className={styles.images}>
-								<div className={styles.banquetDisplayContainer}>
-									<Image
-										fill={true}
-										src="/projects/event-qr-code-generator/banquet-display.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-								<div className={styles.checkinCommandContainer}>
-									<Image
-										fill={true}
-										src="/projects/event-qr-code-generator/checkin-command.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-								<div className={styles.revampAnnouncementContainer}>
-									<Image
-										fill={true}
-										src="/projects/event-qr-code-generator/revamp-announcement.png"
-										alt="Revamp Announcement"
-										className={styles.image}
-									/>
-								</div>
-							</div>
 						</div>
 					}
 				/>

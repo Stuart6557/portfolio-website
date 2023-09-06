@@ -1,4 +1,112 @@
 .content {
-  width: 100%;
-  text-align: center; // remove later
+  h2 {
+    margin: 0.4rem 0 0.4rem 0;
+  }
+
+  p {
+    color: var(--card-text-color);
+    font-size: 1rem;
+    margin: 0.4rem 0 0.4rem 0;
+  }
+
+  hr {
+    border: 0.5px solid gray;
+  }
+
+  ul {
+    padding-left: 1rem;
+
+    li {
+      color: var(--card-text-color);
+      font-size: 1rem;
+      margin-top: 0.2rem;
+    }
+  }
+
+  .link {
+    color: var(--link-color);
+
+    &:hover {
+      color: var(--link-hover-color);
+    }
+  }
+
+  .appImages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div {
+      min-height: 400px;
+      max-height: 500px;
+      max-width: 100%;
+      margin: 5px;
+      flex-grow: 1;
+      position: relative;    // Needed for fill={true} to work on Image components
+
+      .image {
+        object-fit: contain;
+      }
+    }
+
+    .driverRegistrationContainer {
+      aspect-ratio: 360 / 942;
+    }
+
+    .profileContainer {
+      aspect-ratio: 360 / 867;
+    }
+
+    .noAvailableJobsContainer {
+      aspect-ratio: 360 / 719;
+    }
+
+    .noCurrentJobsContainer {
+      aspect-ratio: 360 / 705;
+    }
+
+    .findJobsContainer {
+      aspect-ratio: 368 / 727;
+    }
+    
+    @media screen and (max-width: 500px) {
+      div {
+        width: 100%;
+        min-height: initial;
+        max-height: initial;
+      }
+    }
+  }
+
+  .adminPortalImages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div {
+      min-height: 300px;
+      max-height: 800px;
+      max-width: 100%;
+      margin: 5px;
+      flex-grow: 1;
+      position: relative;    // Needed for fill={true} to work on Image components
+
+      .image {
+        object-fit: contain;
+      }
+    }
+
+    .driverVerificationContainer,
+    .adminPortalProfileContainer {
+      aspect-ratio: 1512 / 982;
+    }
+
+    @media screen and (max-width: 700px) {
+      div {
+        width: 100%;
+        min-height: initial;
+        max-height: initial;
+      }
+    }
+  }
 }

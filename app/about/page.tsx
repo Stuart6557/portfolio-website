@@ -39,6 +39,7 @@ export default function About() {
 						<Link 
 							href="https://www.linkedin.com/in/vivian-liu-336148202/"
 							target="_blank"
+							rel="noopener noreferrer"
 							className={styles.link}
 						>
 							www.linkedin.com/in/vivian-liu-336148202/
@@ -49,6 +50,7 @@ export default function About() {
 						<Link
 							href="https://github.com/Stuart6557"
 							target="_blank"
+							rel="noopener noreferrer"
 							className={styles.link}
 						>
 							github.com/Stuart6557
@@ -61,7 +63,11 @@ export default function About() {
 					<hr />
 					<p>
 						You can email me at&nbsp;
-						<Link href="mailto:v6liu@ucsd.edu" target="_blank" className={styles.link}>
+						<Link href="mailto:v6liu@ucsd.edu"
+							target="_blank"
+							rel="noopener noreferrer"
+							className={styles.link}
+						>
 							v6liu@ucsd.edu
 						</Link>
 					</p>
@@ -79,6 +85,7 @@ export default function About() {
 							<Link
 								href="https://arithmetic.zetamac.com"
 								target="_blank"
+								rel="noopener noreferrer"
 								className={styles.link}
 							>
 								Zetamac
@@ -98,6 +105,7 @@ export default function About() {
 							<Link
 								href="https://www.youtube.com/watch?v=RZzQRQWFX5Y"
 								target="_blank"
+								rel="noopener noreferrer"
 								className={styles.link}
 							>
 								here

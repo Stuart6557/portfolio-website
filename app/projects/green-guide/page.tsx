@@ -21,6 +21,7 @@ export default function GreenGuide() {
 									<Link
 										href="https://devpost.com/software/green-guide"
 										target="_blank"
+										rel="noopener noreferrer"
 										className={styles.link}
 									>
 										Devpost submission
@@ -30,6 +31,7 @@ export default function GreenGuide() {
 									<Link
 										href="https://github.com/Stuart6557/LA-Hacks-2023"
 										target="_blank"
+										rel="noopener noreferrer"
 										className={styles.link}
 									>
 										GitHub repo

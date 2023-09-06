@@ -21,6 +21,7 @@ export default function FinanceBuddy() {
 									<Link
 										href="https://github.com/Stuart6557/Finance-Buddy"
 										target="_blank"
+										rel="noopener noreferrer"
 										className={styles.link}
 									>
 										GitHub repo

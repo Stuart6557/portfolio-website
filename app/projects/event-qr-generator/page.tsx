@@ -21,6 +21,7 @@ export default function EventQrGenerator() {
 									<Link
 										href="https://www.figma.com/file/Iyc2BzYEBFjg2fLjC2ZRRQ/QR-Code-iPad-Checkin?type=design&node-id=0-1&mode=design&t=w1u2YRpOIIktPjvm-0"
 										target="_blank"
+										rel="noopener noreferrer"
 										className={styles.link}
 									>
 										Figma design
@@ -31,6 +32,7 @@ export default function EventQrGenerator() {
 									<Link
 										href="https://github.com/acmucsd/discord-bot"
 										target="_blank"
+										rel="noopener noreferrer"
 										className={styles.link}
 									>
 										GitHub repo

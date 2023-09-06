@@ -17,11 +17,11 @@ export default function ACMUcsd() {
 								This page is still in progress. Stay tuned :)
 								{/* Shameless plug for events, Hack School, Bit Byte, Diamond Staff, etc
 
-								<Link href="https://acmurl.com/discord" target="_blank" className={styles.link}>
+								<Link href="https://acmurl.com/discord" target="_blank" rel="noopener noreferrer" className={styles.link}>
 									ACM's Discord server
 								</Link>
 
-								<Link href="https://members.acmucsd.com" target="_blank" className={styles.link}>
+								<Link href="https://members.acmucsd.com" target="_blank" rel="noopener noreferrer" className={styles.link}>
 									ACM Membership Portal
 								</Link> */}
 							</p>

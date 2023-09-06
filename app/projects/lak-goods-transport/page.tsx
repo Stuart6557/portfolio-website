@@ -21,6 +21,7 @@ export default function LakGoodsTransport() {
 									<Link
 										href="https://www.figma.com/file/LEjIuAppU8eT4SlcMjgChF/LAAKTA-Goods-Transport?type=design&node-id=249-828&mode=design&t=QdeVisYWuyHWYoFa-0"
 										target="_blank"
+										rel="noopener noreferrer"
 										className={styles.link}
 									>
 										Figma design
@@ -30,6 +31,7 @@ export default function LakGoodsTransport() {
 									<Link
 										href="https://github.com/TritonSE/LAK-Goods-Transport-Application"
 										target="_blank"
+										rel="noopener noreferrer"
 										className={styles.link}
 									>
 										GitHub repo
@@ -109,7 +111,11 @@ export default function LakGoodsTransport() {
 							<p>
 								<b>Background: </b>
 								This is a project that I worked on for the nonprofit&nbsp;
-								<Link href="https://laktaa.medium.com" target="_blank" className={styles.link}>
+								<Link href="https://laktaa.medium.com"
+									target="_blank"
+									rel="noopener noreferrer"
+									className={styles.link}
+								>
 									Laktaa Bhutan
 								</Link>
 								&nbsp;(formerly FirstMile Bhutan) during my time as a developer in

@@ -1,4 +1,33 @@
 .content {
-  width: 100%;
-  text-align: center; // remove later
+  h2 {
+    margin: 0.4rem 0 0.4rem 0;
+  }
+
+  p {
+    color: var(--card-text-color);
+    font-size: 1rem;
+    margin: 0.4rem 0 0.4rem 0;
+  }
+
+  hr {
+    border: 0.5px solid gray;
+  }
+
+  ul {
+    padding-left: 1rem;
+
+    li {
+      color: var(--card-text-color);
+      font-size: 1rem;
+      margin-top: 0.2rem;
+    }
+  }
+
+  .link {
+    color: var(--link-color);
+
+    &:hover {
+      color: var(--link-hover-color);
+    }
+  }
 }

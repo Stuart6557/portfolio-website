@@ -17,7 +17,7 @@ export default function LakGoodsTransport() {
 							<h2>🔗 Links</h2>
 							<hr />
 							<ul>
-							<li>
+								<li>
 									<Link
 										href="https://www.figma.com/file/LEjIuAppU8eT4SlcMjgChF/LAAKTA-Goods-Transport?type=design&node-id=249-828&mode=design&t=QdeVisYWuyHWYoFa-0"
 										target="_blank"
@@ -124,7 +124,7 @@ export default function LakGoodsTransport() {
 								<Link href="/experience/triton-software-engineering" className={styles.link}>
 										here
 								</Link>
-								.) Laktaa is a non-profit logistics brokerage for Bhutan aiding farmers
+								). Laktaa is a non-profit logistics brokerage for Bhutan aiding farmers
 								with transporting their goods. The current poor transportation infrastructure
 								in Bhutan makes it difficult for farmers to transport goods. Consequently,
 								farmers are limited in the prices at which and the people to which they can

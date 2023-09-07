@@ -81,9 +81,9 @@ export default function EventQrGenerator() {
 								my time as an ACM Diamond Staff member (you can read more about my
 								ACM experience&nbsp;
 								<Link href="/experience/acm-ucsd" className={styles.link}>
-										here
+									here
 								</Link>
-								.) I built this tool for Breadbot, one of two Discord bots ACM had at
+								). I built this tool for Breadbot, one of two Discord bots ACM had at
 								the time I completed this project. ACM hosts a lot of events, workshops,
 								and socials, and we wanted a way for attendees to easily check into these
 								events by scanning a QR code when they first arrive so they can earn

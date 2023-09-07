@@ -43,15 +43,13 @@ export default function PortfolioWebsite() {
 							<h2>📚 Description</h2>
 							<hr />
 							<p>
-								<b>Background: </b>
-								?
+								This site is where I showcase a bit of my personality and keep a
+								portfolio of my work starting from the beginning of college.
 							</p>
 							<p>
-								<b>Project Details: </b>
-								?
-							</p>
-							<p>
-								?
+								I coded this in TypeScript using Next.js and hosted it with GitHub Pages.
+								I learned a lot about Next.js's new App Router and pre-rendering with
+								Static Generation, and also improved my skills in responsive web design.
 							</p>
 						</div>
 					}

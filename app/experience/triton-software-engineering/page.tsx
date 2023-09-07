@@ -6,6 +6,7 @@ export default function TSE() {
 	return (
 		<PageTemplate
 			backNavLink="/experience"
+			backNav="Experience"
 			heading="VP Operations, Developer at Triton Software Engineering"
 			content={
 				<BigCard
@@ -13,6 +14,9 @@ export default function TSE() {
 						<div className={styles.content}>
 							<p>
 								This page is still in progress. Stay tuned :)
+								{/* Playbook
+								Women in TSE
+								Shameless plug */}
 							</p>
 						</div>
 					}

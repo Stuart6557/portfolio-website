@@ -1,4 +1,87 @@
 .content {
-  width: 100%;
-  text-align: center; // remove later
+  h2 {
+    margin: 0.4rem 0 0.4rem 0;
+  }
+
+  p {
+    color: var(--card-text-color);
+    font-size: 1rem;
+    margin: 0.4rem 0 0.4rem 0;
+  }
+
+  hr {
+    border: 0.5px solid gray;
+  }
+
+  ul {
+    padding-left: 1rem;
+
+    li {
+      color: var(--card-text-color);
+      font-size: 1rem;
+      margin-top: 0.2rem;
+    }
+  }
+
+  .link {
+    color: var(--link-color);
+
+    &:hover {
+      color: var(--link-hover-color);
+    }
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div {
+      min-height: 250px;
+      max-height: 400px;
+      margin: 5px;
+      flex-grow: 1;
+      position: relative;    // Needed for fill={true} to work on Image components
+
+      .image {
+        object-fit: contain;
+      }
+    }
+
+    .homeContainer {
+      aspect-ratio: 2880 / 1530;
+    }
+
+    .cardsContainer {
+      aspect-ratio: 2880 / 1636;
+    }
+
+    .signupContainer {
+      aspect-ratio: 2880 / 1581;
+    }
+
+    .loginContainer {
+      aspect-ratio: 2880 / 1595;
+    }
+
+    .profileContainer {
+      aspect-ratio: 2880 / 1573;
+    }
+
+    .minigameContainer {
+      aspect-ratio: 2880 / 1632;
+    }
+
+    .trackerContainer {
+      aspect-ratio: 2880 / 1636;
+    }
+
+    @media screen and (max-width: 1000px) {
+      div {
+        width: 100%;
+        min-height: initial;
+        max-height: initial;
+      }
+    }
+  }
 }

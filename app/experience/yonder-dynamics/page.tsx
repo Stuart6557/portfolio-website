@@ -5,7 +5,8 @@ import styles from './style.module.scss';
 export default function Yonder() {
 	return (
 		<PageTemplate
-			backNavLink="/projects"
+			backNavLink="/experience"
+			backNav="Experience"
 			heading="Developer at Yonder Dynamics"
 			content={
 				<BigCard
@@ -13,6 +14,7 @@ export default function Yonder() {
 						<div className={styles.content}>
 							<p>
 								This page is still in progress. Stay tuned :)
+								{/* Shameless plug */}
 							</p>
 						</div>
 					}

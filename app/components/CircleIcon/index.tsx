@@ -15,7 +15,7 @@ export default function CircleIcon({link, icon, description}: CircleIconProps) {
 				className={styles.circleButton}
 				href={link}
 				target="_blank"
-				rel="noopener, noreferrer"
+				rel="noopener noreferrer"
 			>
 				{icon}
 			</Link>

@@ -3,6 +3,7 @@ import BigCard from '@/app/components/BigCard';
 import styles from './style.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
+import { prefix } from '@/app/prefix';
 
 export default function LakGoodsTransport() {
 	return (
@@ -47,7 +48,7 @@ export default function LakGoodsTransport() {
 								<div className={styles.driverRegistrationContainer}>
 									<Image
 										fill={true}
-										src="/projects/lak-goods-transport/driver-registration.png"
+										src={`${prefix}/projects/lak-goods-transport/driver-registration.png`}
 										alt="Driver Registration Screen"
 										className={styles.image}
 									/>
@@ -55,7 +56,7 @@ export default function LakGoodsTransport() {
 								<div className={styles.profileContainer}>
 									<Image
 										fill={true}
-										src="/projects/lak-goods-transport/profile.png"
+										src={`${prefix}/projects/lak-goods-transport/profile.png`}
 										alt="Profile Screen"
 										className={styles.image}
 									/>
@@ -63,7 +64,7 @@ export default function LakGoodsTransport() {
 								<div className={styles.noCurrentJobsContainer}>
 									<Image
 										fill={true}
-										src="/projects/lak-goods-transport/no-current-jobs.png"
+										src={`${prefix}/projects/lak-goods-transport/no-current-jobs.png`}
 										alt="No Current Jobs Screen"
 										className={styles.image}
 									/>
@@ -71,7 +72,7 @@ export default function LakGoodsTransport() {
 								<div className={styles.noAvailableJobsContainer}>
 									<Image
 										fill={true}
-										src="/projects/lak-goods-transport/no-available-jobs.png"
+										src={`${prefix}/projects/lak-goods-transport/no-available-jobs.png`}
 										alt="No Available Jobs Screen"
 										className={styles.image}
 									/>
@@ -79,7 +80,7 @@ export default function LakGoodsTransport() {
 								<div className={styles.findJobsContainer}>
 									<Image
 										fill={true}
-										src="/projects/lak-goods-transport/find-jobs.png"
+										src={`${prefix}/projects/lak-goods-transport/find-jobs.png`}
 										alt="Find Jobs Screen"
 										className={styles.image}
 									/>
@@ -89,7 +90,7 @@ export default function LakGoodsTransport() {
 								<div className={styles.driverVerificationContainer}>
 									<Image
 										fill={true}
-										src="/projects/lak-goods-transport/admin-portal-driver-verification.png"
+										src={`${prefix}/projects/lak-goods-transport/admin-portal-driver-verification.png`}
 										alt="Admin Portal Driver Verification Screen"
 										className={styles.image}
 									/>
@@ -97,7 +98,7 @@ export default function LakGoodsTransport() {
 								<div className={styles.adminPortalProfileContainer}>
 									<Image
 										fill={true}
-										src="/projects/lak-goods-transport/admin-portal-profile.png"
+										src={`${prefix}/projects/lak-goods-transport/admin-portal-profile.png`}
 										alt="Admin Portal Profile Screen"
 										className={styles.image}
 									/>

@@ -3,6 +3,7 @@ import BigCard from '@/app/components/BigCard';
 import styles from './style.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
+import { prefix } from '@/app/prefix';
 
 export default function EventQrGenerator() {
 	return (
@@ -48,7 +49,7 @@ export default function EventQrGenerator() {
 								<div className={styles.banquetDisplayContainer}>
 									<Image
 										fill={true}
-										src="/projects/event-qr-code-generator/banquet-display.png"
+										src={`${prefix}/projects/event-qr-code-generator/banquet-display.png`}
 										alt="Banquet Display"
 										className={styles.image}
 									/>
@@ -56,7 +57,7 @@ export default function EventQrGenerator() {
 								<div className={styles.checkinCommandContainer}>
 									<Image
 										fill={true}
-										src="/projects/event-qr-code-generator/checkin-command.png"
+										src={`${prefix}/projects/event-qr-code-generator/checkin-command.png`}
 										alt="Command Demo"
 										className={styles.image}
 									/>
@@ -64,7 +65,7 @@ export default function EventQrGenerator() {
 								<div className={styles.revampAnnouncementContainer}>
 									<Image
 										fill={true}
-										src="/projects/event-qr-code-generator/revamp-announcement.png"
+										src={`${prefix}/projects/event-qr-code-generator/revamp-announcement.png`}
 										alt="Revamp Announcement"
 										className={styles.image}
 									/>

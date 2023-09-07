@@ -3,6 +3,7 @@ import BigCard from '@/app/components/BigCard';
 import styles from './style.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
+import { prefix } from '@/app/prefix';
 
 export default function GreenGuide() {
 	return (
@@ -47,7 +48,7 @@ export default function GreenGuide() {
 								<div className={styles.homeContainer}>
 									<Image
 										fill={true}
-										src="/projects/green-guide/home.png"
+										src={`${prefix}/projects/green-guide/home.png`}
 										alt="Home Page"
 										className={styles.image}
 									/>
@@ -55,7 +56,7 @@ export default function GreenGuide() {
 								<div className={styles.cardsContainer}>
 									<Image
 										fill={true}
-										src="/projects/green-guide/cards.png"
+										src={`${prefix}/projects/green-guide/cards.png`}
 										alt="Waste Sorting Guide"
 										className={styles.image}
 									/>
@@ -63,7 +64,7 @@ export default function GreenGuide() {
 								<div className={styles.signupContainer}>
 									<Image
 										fill={true}
-										src="/projects/green-guide/signup.png"
+										src={`${prefix}/projects/green-guide/signup.png`}
 										alt="Signup Page"
 										className={styles.image}
 									/>
@@ -71,7 +72,7 @@ export default function GreenGuide() {
 								<div className={styles.loginContainer}>
 									<Image
 										fill={true}
-										src="/projects/green-guide/login.png"
+										src={`${prefix}/projects/green-guide/login.png`}
 										alt="Login Page"
 										className={styles.image}
 									/>
@@ -79,7 +80,7 @@ export default function GreenGuide() {
 								<div className={styles.profileContainer}>
 									<Image
 										fill={true}
-										src="/projects/green-guide/profile.png"
+										src={`${prefix}/projects/green-guide/profile.png`}
 										alt="Profile Page"
 										className={styles.image}
 									/>
@@ -87,7 +88,7 @@ export default function GreenGuide() {
 								<div className={styles.minigameContainer}>
 									<Image
 										fill={true}
-										src="/projects/green-guide/mini-game.png"
+										src={`${prefix}/projects/green-guide/mini-game.png`}
 										alt="Mini Game"
 										className={styles.image}
 									/>
@@ -95,7 +96,7 @@ export default function GreenGuide() {
 								<div className={styles.trackerContainer}>
 									<Image
 										fill={true}
-										src="/projects/green-guide/tracker.png"
+										src={`${prefix}/projects/green-guide/tracker.png`}
 										alt="Recycling Tracker"
 										className={styles.image}
 									/>

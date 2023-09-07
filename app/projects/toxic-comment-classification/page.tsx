@@ -3,6 +3,7 @@ import BigCard from '@/app/components/BigCard';
 import styles from './style.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
+import { prefix } from '@/app/prefix';
 
 export default function ToxicCommentClassification() {
 	return (
@@ -37,7 +38,7 @@ export default function ToxicCommentClassification() {
 								<div className={styles.toxicTagFreqContainer}>
 									<Image
 										fill={true}
-										src="/projects/toxic-comment-classification/toxic-tag-freq.png"
+										src={`${prefix}/projects/toxic-comment-classification/toxic-tag-freq.png`}
 										alt="Toxic Tag Frequency Percentages"
 										className={styles.image}
 									/>
@@ -45,7 +46,7 @@ export default function ToxicCommentClassification() {
 								<div className={styles.classImbalanceContainer}>
 									<Image
 										fill={true}
-										src="/projects/toxic-comment-classification/class-imbalance.png"
+										src={`${prefix}/projects/toxic-comment-classification/class-imbalance.png`}
 										alt="Class Imbalance"
 										className={styles.image}
 									/>
@@ -53,7 +54,7 @@ export default function ToxicCommentClassification() {
 								<div className={styles.dataContainer}>
 									<Image
 										fill={true}
-										src="/projects/toxic-comment-classification/data.png"
+										src={`${prefix}/projects/toxic-comment-classification/data.png`}
 										alt="Data"
 										className={styles.image}
 									/>
@@ -61,7 +62,7 @@ export default function ToxicCommentClassification() {
 								<div className={styles.modelContainer}>
 									<Image
 										fill={true}
-										src="/projects/toxic-comment-classification/model.png"
+										src={`${prefix}/projects/toxic-comment-classification/model.png`}
 										alt="Deep Learning Model"
 										className={styles.image}
 									/>

@@ -3,6 +3,7 @@ import BigCard from '@/app/components/BigCard';
 import styles from './style.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
+import { prefix } from '@/app/prefix';
 
 export default function FinanceBuddy() {
 	return (
@@ -37,7 +38,7 @@ export default function FinanceBuddy() {
 								<div className={styles.createContainer}>
 									<Image
 										fill={true}
-										src="/projects/finance-buddy/create-2.png"
+										src={`${prefix}/projects/finance-buddy/create-2.png`}
 										alt="Create Purchase"
 										className={styles.image}
 									/>
@@ -45,7 +46,7 @@ export default function FinanceBuddy() {
 								<div className={styles.viewContainer}>
 									<Image
 										fill={true}
-										src="/projects/finance-buddy/view.png"
+										src={`${prefix}/projects/finance-buddy/view.png`}
 										alt="View Purchase Page"
 										className={styles.image}
 									/>

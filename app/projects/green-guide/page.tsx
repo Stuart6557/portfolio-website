@@ -49,49 +49,49 @@ export default function GreenGuide() {
 									<Image
 										fill={true}
 										src={`${prefix}/projects/green-guide/home.png`}
-										alt="Home Page"
+										alt="Home page"
 									/>
 								</div>
 								<div className={styles.cardsContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/green-guide/cards.png`}
-										alt="Waste Sorting Guide"
+										alt="Waste sorting guide"
 									/>
 								</div>
 								<div className={styles.signupContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/green-guide/signup.png`}
-										alt="Signup Page"
+										alt="Signup page"
 									/>
 								</div>
 								<div className={styles.loginContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/green-guide/login.png`}
-										alt="Login Page"
+										alt="Login page"
 									/>
 								</div>
 								<div className={styles.profileContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/green-guide/profile.png`}
-										alt="Profile Page"
+										alt="Profile page"
 									/>
 								</div>
 								<div className={styles.minigameContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/green-guide/mini-game.png`}
-										alt="Mini Game"
+										alt="Mini game"
 									/>
 								</div>
 								<div className={styles.trackerContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/green-guide/tracker.png`}
-										alt="Recycling Tracker"
+										alt="Recycling tracker"
 									/>
 								</div>
 							</div>

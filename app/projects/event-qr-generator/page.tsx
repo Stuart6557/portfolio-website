@@ -50,21 +50,21 @@ export default function EventQrGenerator() {
 									<Image
 										fill={true}
 										src={`${prefix}/projects/event-qr-code-generator/banquet-display.png`}
-										alt="Banquet Display"
+										alt="Banquet display"
 									/>
 								</div>
 								<div className={styles.checkinCommandContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/event-qr-code-generator/checkin-command.png`}
-										alt="Command Demo"
+										alt="Command demo"
 									/>
 								</div>
 								<div className={styles.revampAnnouncementContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/event-qr-code-generator/revamp-announcement.png`}
-										alt="Revamp Announcement"
+										alt="Revamp announcement"
 									/>
 								</div>
 							</div>

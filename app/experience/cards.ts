@@ -28,9 +28,9 @@ export const cards = [
 	{
 		link: '/experience/acm-ucsd',
 		imgSrc: `${prefix}/experience/acm-ucsd.png`,
-		imgAlt: 'ACM at UCSD',
+		imgAlt: 'ACM at UC San Diego',
 		role: 'Automation Developer',
-		company: 'ACM at UCSD',
+		company: 'ACM at UC San Diego',
 		date: 'Dec 2022 – Present',
 	},
 	{

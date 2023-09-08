@@ -39,14 +39,14 @@ export default function FinanceBuddy() {
 									<Image
 										fill={true}
 										src={`${prefix}/projects/finance-buddy/create-2.png`}
-										alt="Create Purchase"
+										alt="Create purchase page"
 									/>
 								</div>
 								<div className={styles.viewContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/finance-buddy/view.png`}
-										alt="View Purchase Page"
+										alt="View purchase page"
 									/>
 								</div>
 							</div>
@@ -58,7 +58,7 @@ export default function FinanceBuddy() {
 							<p>
 								<b>Background: </b>
 								In fall of 2022, I participated in ACM at UC San Diego's Hack School
-								program, a a quarter-long web development bootcamp teaching development
+								program, a quarter-long web development bootcamp teaching development
 								with the MERN stack. The program offered roughly one workshop every
 								other week, each focusing on different aspects of developing a
 								full-stack web application. I completed this Finance Buddy project

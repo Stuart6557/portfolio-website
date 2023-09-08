@@ -51,7 +51,6 @@ export default function EventQrGenerator() {
 										fill={true}
 										src={`${prefix}/projects/event-qr-code-generator/banquet-display.png`}
 										alt="Banquet Display"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.checkinCommandContainer}>
@@ -59,7 +58,6 @@ export default function EventQrGenerator() {
 										fill={true}
 										src={`${prefix}/projects/event-qr-code-generator/checkin-command.png`}
 										alt="Command Demo"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.revampAnnouncementContainer}>
@@ -67,7 +65,6 @@ export default function EventQrGenerator() {
 										fill={true}
 										src={`${prefix}/projects/event-qr-code-generator/revamp-announcement.png`}
 										alt="Revamp Announcement"
-										className={styles.image}
 									/>
 								</div>
 							</div>

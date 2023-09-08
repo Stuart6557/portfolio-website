@@ -40,7 +40,6 @@ export default function FinanceBuddy() {
 										fill={true}
 										src={`${prefix}/projects/finance-buddy/create-2.png`}
 										alt="Create Purchase"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.viewContainer}>
@@ -48,7 +47,6 @@ export default function FinanceBuddy() {
 										fill={true}
 										src={`${prefix}/projects/finance-buddy/view.png`}
 										alt="View Purchase Page"
-										className={styles.image}
 									/>
 								</div>
 							</div>

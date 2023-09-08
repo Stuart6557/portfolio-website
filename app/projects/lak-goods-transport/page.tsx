@@ -50,7 +50,6 @@ export default function LakGoodsTransport() {
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/driver-registration.png`}
 										alt="Driver Registration Screen"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.profileContainer}>
@@ -58,7 +57,6 @@ export default function LakGoodsTransport() {
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/profile.png`}
 										alt="Profile Screen"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.noCurrentJobsContainer}>
@@ -66,7 +64,6 @@ export default function LakGoodsTransport() {
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/no-current-jobs.png`}
 										alt="No Current Jobs Screen"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.noAvailableJobsContainer}>
@@ -74,7 +71,6 @@ export default function LakGoodsTransport() {
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/no-available-jobs.png`}
 										alt="No Available Jobs Screen"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.findJobsContainer}>
@@ -82,7 +78,6 @@ export default function LakGoodsTransport() {
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/find-jobs.png`}
 										alt="Find Jobs Screen"
-										className={styles.image}
 									/>
 								</div>
 							</div>
@@ -92,7 +87,6 @@ export default function LakGoodsTransport() {
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/admin-portal-driver-verification.png`}
 										alt="Admin Portal Driver Verification Screen"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.adminPortalProfileContainer}>
@@ -100,7 +94,6 @@ export default function LakGoodsTransport() {
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/admin-portal-profile.png`}
 										alt="Admin Portal Profile Screen"
-										className={styles.image}
 									/>
 								</div>
 							</div>

@@ -50,7 +50,6 @@ export default function GreenGuide() {
 										fill={true}
 										src={`${prefix}/projects/green-guide/home.png`}
 										alt="Home Page"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.cardsContainer}>
@@ -58,7 +57,6 @@ export default function GreenGuide() {
 										fill={true}
 										src={`${prefix}/projects/green-guide/cards.png`}
 										alt="Waste Sorting Guide"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.signupContainer}>
@@ -66,7 +64,6 @@ export default function GreenGuide() {
 										fill={true}
 										src={`${prefix}/projects/green-guide/signup.png`}
 										alt="Signup Page"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.loginContainer}>
@@ -74,7 +71,6 @@ export default function GreenGuide() {
 										fill={true}
 										src={`${prefix}/projects/green-guide/login.png`}
 										alt="Login Page"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.profileContainer}>
@@ -82,7 +78,6 @@ export default function GreenGuide() {
 										fill={true}
 										src={`${prefix}/projects/green-guide/profile.png`}
 										alt="Profile Page"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.minigameContainer}>
@@ -90,7 +85,6 @@ export default function GreenGuide() {
 										fill={true}
 										src={`${prefix}/projects/green-guide/mini-game.png`}
 										alt="Mini Game"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.trackerContainer}>
@@ -98,7 +92,6 @@ export default function GreenGuide() {
 										fill={true}
 										src={`${prefix}/projects/green-guide/tracker.png`}
 										alt="Recycling Tracker"
-										className={styles.image}
 									/>
 								</div>
 							</div>

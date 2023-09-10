@@ -29,7 +29,6 @@ export default function EventQrGenerator() {
 									</Link>
 								</li>
 								<li>
-									BreadBot&nbsp;
 									<Link
 										href="https://github.com/acmucsd/discord-bot"
 										target="_blank"
@@ -99,7 +98,7 @@ export default function EventQrGenerator() {
 								&nbsp;command on ACM's Discord server. The revamped version generates a
 								colorful QR code on a slide and displays the event name and event check-in
 								code (the code can be used to manually check in through the ACM
-								Membership Portal.) I programmed the bot in TypeScript with discord.js,
+								Membership Portal). I programmed the bot in TypeScript with discord.js,
 								easyqrcodejs-nodejs, and canvas.
 							</p>
 							<p>

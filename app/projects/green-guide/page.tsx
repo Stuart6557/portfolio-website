@@ -128,10 +128,9 @@ export default function GreenGuide() {
 								creating issues, and giving a mini React crash course to some of my
 								teammates who were new to React. I worked on some of the frontend and also
 								learned React context and Firebase for the authentication since none of us
-								knew how to do this before the hackathon. (Fun fact: I stayed up until 5am
-								to figure this out). My friends managed to build some incredible features
-								as I was working on the authentication, and in the end I was proud that
-								we were able to get our app working.
+								knew how to do this before the hackathon. My friends managed to build some
+								incredible features as I was working on the authentication, and in the end
+								I was proud that we were able to get our app working.
 							</p>
 							<p>
 								We didn't have that much time during the hackathon to build everything we

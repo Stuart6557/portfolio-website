@@ -119,8 +119,7 @@ export default function LakGoodsTransport() {
 										here
 								</Link>
 								). Laktaa is a non-profit logistics brokerage for Bhutan aiding farmers
-								with transporting their goods. The current poor transportation infrastructure
-								in Bhutan makes it difficult for farmers to transport goods. Consequently,
+								with transporting their goods. Due to poor transportation infrastructure,
 								farmers are limited in the prices at which and the people to which they can
 								sell their produce. Therefore, we built an app that connects farmers to truck
 								drivers who can deliver their goods to markets and other destinations.

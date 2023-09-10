@@ -42,11 +42,11 @@ export default function UpdateGradDateAutomator() {
 								</Link>
 								). TSE hosts 2 mandatory All Hands events every quarter, and each member has
 								to provide their expected graduation date on an attendance form afterwards.
-								My job as VP Operations is to compare everyone's graduation dates on the
+								Part of my job as VP Operations is to compare everyone's graduation dates on the
 								attendance form to the ones on the roster and update the roster if necessary.
-								It is also my job to figure out who didn't submit the form and ask them to fill
-								it out. Since TSE has up to almost 100 members, this process usually took me
-								hours to do manually.
+								It is also my job to figure out who didn't submit the attendance form and ask
+								them to fill it out. Since TSE has up to almost 100 members, this process usually
+								took me hours to do manually.
 							</p>
 							<p>
 								<b>Project Details: </b>

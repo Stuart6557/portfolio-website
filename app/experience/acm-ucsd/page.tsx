@@ -1,8 +1,7 @@
 import PageTemplate from '@/app/components/PageTemplate';
 import BigCard from '@/app/components/BigCard';
-import styles from './style.module.scss';
+import styles from '../../components/BigCard/style.module.scss';
 import Link from 'next/link';
-import Image from 'next/image';
 import { prefix } from '@/app/prefix';
 
 export default function ACMUcsd() {
@@ -14,7 +13,7 @@ export default function ACMUcsd() {
 			content={
 				<BigCard
 					content={
-						<div className={styles.content}>
+						<div>
 							<h2>🏢 About ACM at UC San Diego</h2>
 							<hr />
 							<p>
@@ -68,10 +67,15 @@ export default function ACMUcsd() {
 
 							<b>Automation Developer</b>
 							<p>
-								In May, I applied to be a full Automation Developer on ACM's development
-								team. Now, I work on building and maintaining ACM's Discord bots, completing
-								a variety of tasks such as proper bot error messages and programming a bot
-								to upgrade discord.js from v13 to v14.
+								In May, I applied to be a full Automation Developer on ACM's development team.
+								I now work on building and maintaining ACM's Discord bots, completing a
+								variety of tasks such as proper bot error messages and programming a new bot
+								with discord.js v14 since our bots were only using v13. I had only worked on
+								a small section of the bots' repos up until that point, so I spent a long time
+								studying our old code, watching tutorials, and reading through documentation to
+								learn how to set up the new repo. I learned a lot about things like dependency
+								injection and dynamic imports, and even managed to catch and fix a bug with
+								recursion and async functions that went unnoticed for a long time.
 							</p>
 
 							<br />
@@ -79,7 +83,7 @@ export default function ACMUcsd() {
 							<h2>📌 Shameless Plug</h2>
 							<hr />
 							<p>
-								If you are a UCSD student, I encourage you to give ACM a try! It has so
+								If you are a UCSD student, I encourage you to give ACM a try! We have so
 								many programs and opportunities for everyone, even if you're not a CS or
 								related major. Here are some useful links if you'd like to get involved:
 							</p>

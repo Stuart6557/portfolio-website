@@ -1,6 +1,6 @@
 import PageTemplate from '@/app/components/PageTemplate';
 import BigCard from '@/app/components/BigCard';
-import styles from './style.module.scss';
+import styles from '../../components/BigCard/style.module.scss';
 import Link from 'next/link';
 import { prefix } from '@/app/prefix';
 
@@ -13,7 +13,7 @@ export default function TSE() {
 			content={
 				<BigCard
 					content={
-						<div className={styles.content}>
+						<div>
 							<h2>🏢 About Triton Software Engineering (TSE)</h2>
 							<hr />
 							<p>
@@ -25,11 +25,12 @@ export default function TSE() {
 
 							<br />
 
-							<h2>👩🏻‍💼 My Role</h2>
+							<h2>👩🏻‍💼 My Roles</h2>
 							<hr />
 							<b>Developer</b>
 							<p>
-								I applied to TSE as a developer in fall of my freshman year.
+								I applied to TSE as a developer in fall of my freshman year and worked on a
+								project for the nonprofit Laktaa Bhutan. You can read more about that&nbsp;
 								<Link href={`${prefix}/projects/lak-goods-transport`} className={styles.link}>
 									here
 								</Link>.
@@ -37,16 +38,22 @@ export default function TSE() {
 
 							<b>VP Operations</b>
 							<p>
-								In winter quarter 2023, I applied to become VP Operations.
-							</p>
-							<p>
-								Playbook
+								I applied to and became VP Operations in winter 2023. My job is to maintain the
+								infrastructure of the organization and make the necessary connections and actions
+								to ensure a thriving culture within TSE. Some of my resopnsibilities include
+								maintaining rosters and updating them quarterly, collaborating with other
+								organizations, managing all finances, planning and handling logistics for all
+								events, writing and maintaining a &gt;60 page playbook, directing marketing,
+								spearheading recruitment, and more. Because of the amount of resopnsibilities
+								and deadlines, I've gotten a lot better at time management, communication, and
+								deadling with unexpected, challenging situations.
 							</p>
 
 							<b>Women in TSE</b>
 							<p>
-								Starting fall 2023, I have been the leader of Women in TSE, a group for
-								female and non-binary identifying members.
+								I have also been the leader of Women in TSE since fall 2023, a group for
+								female and non-binary identifying members. I ensure everyone feels welcome and
+								plan a social event every quarter!
 							</p>
 
 							<br />
@@ -54,8 +61,9 @@ export default function TSE() {
 							<h2>📌 Shameless Plug</h2>
 							<hr />
 							<p>
-								If you're interested in software engineering, please consider applying to
-								TSE! Gain experience that resembles industry, blah blah internships blah
+								If you're a UCSD undergrad interested in software engineering, please consider
+								applying to TSE! You get to learn so many popular skills and gain experience that
+								closely resembles industry.
 							</p>
 							<ul>
 								<li>

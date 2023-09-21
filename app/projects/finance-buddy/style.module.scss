@@ -42,10 +42,6 @@
       margin: 5px;
       flex-grow: 1;
       position: relative;    // Needed for fill={true} to work on Image components
-
-      .image {
-        object-fit: contain;
-      }
     }
 
     .createContainer {

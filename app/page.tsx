@@ -26,7 +26,7 @@ export default function Home() {
 		<PageContainer content={
 			<div className={styles.container}>
 				<h1>Hi, I'm Vivian Liu 🤚</h1>
-				<h2>This site is still a work in progress, but feel free to look around :)</h2>
+				<h2>This site is still a work in progress, but feel free to look around :{')'}</h2>
 				{/* <h2>I am a food lover...</h2> */}
 
 				<div className={styles.iconContainer}>

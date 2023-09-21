@@ -49,40 +49,35 @@ export default function LakGoodsTransport() {
 									<Image
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/driver-registration.png`}
-										alt="Driver Registration Screen"
-										className={styles.image}
+										alt="Driver registration screen"
 									/>
 								</div>
 								<div className={styles.profileContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/profile.png`}
-										alt="Profile Screen"
-										className={styles.image}
+										alt="Profile screen"
 									/>
 								</div>
 								<div className={styles.noCurrentJobsContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/no-current-jobs.png`}
-										alt="No Current Jobs Screen"
-										className={styles.image}
+										alt="No current jobs screen"
 									/>
 								</div>
 								<div className={styles.noAvailableJobsContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/no-available-jobs.png`}
-										alt="No Available Jobs Screen"
-										className={styles.image}
+										alt="No available jobs screen"
 									/>
 								</div>
 								<div className={styles.findJobsContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/find-jobs.png`}
-										alt="Find Jobs Screen"
-										className={styles.image}
+										alt="Find jobs screen"
 									/>
 								</div>
 							</div>
@@ -91,16 +86,14 @@ export default function LakGoodsTransport() {
 									<Image
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/admin-portal-driver-verification.png`}
-										alt="Admin Portal Driver Verification Screen"
-										className={styles.image}
+										alt="Admin portal driver verification screen"
 									/>
 								</div>
 								<div className={styles.adminPortalProfileContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/lak-goods-transport/admin-portal-profile.png`}
-										alt="Admin Portal Profile Screen"
-										className={styles.image}
+										alt="Admin portal profile screen"
 									/>
 								</div>
 							</div>

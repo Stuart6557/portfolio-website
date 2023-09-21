@@ -39,16 +39,14 @@ export default function ToxicCommentClassification() {
 									<Image
 										fill={true}
 										src={`${prefix}/projects/toxic-comment-classification/toxic-tag-freq.png`}
-										alt="Toxic Tag Frequency Percentages"
-										className={styles.image}
+										alt="Toxic tag frequency percentages"
 									/>
 								</div>
 								<div className={styles.classImbalanceContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/toxic-comment-classification/class-imbalance.png`}
-										alt="Class Imbalance"
-										className={styles.image}
+										alt="Class imbalance"
 									/>
 								</div>
 								<div className={styles.dataContainer}>
@@ -56,15 +54,13 @@ export default function ToxicCommentClassification() {
 										fill={true}
 										src={`${prefix}/projects/toxic-comment-classification/data.png`}
 										alt="Data"
-										className={styles.image}
 									/>
 								</div>
 								<div className={styles.modelContainer}>
 									<Image
 										fill={true}
 										src={`${prefix}/projects/toxic-comment-classification/model.png`}
-										alt="Deep Learning Model"
-										className={styles.image}
+										alt="Deep learning model"
 									/>
 								</div>
 							</div>

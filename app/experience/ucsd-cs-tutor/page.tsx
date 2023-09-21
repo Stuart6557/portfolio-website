@@ -29,13 +29,13 @@ export default function CSTutor() {
 								events exclusive to tutors. In case anyone's interested in becoming a tutor, you
 								can learn more about the requirements and application process&nbsp;
 								<Link
-										href="https://cse.ucsd.edu/undergraduate/undergraduate-tutors"
-										target="_blank"
-										rel="noopener noreferrer"
-										className={styles.link}
-									>
+									href="https://cse.ucsd.edu/undergraduate/undergraduate-tutors"
+									target="_blank"
+									rel="noopener noreferrer"
+									className={styles.link}
+								>
 										here
-									</Link>!
+								</Link>!
 							</p>
 
 							<br />

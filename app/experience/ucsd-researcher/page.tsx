@@ -24,13 +24,13 @@ export default function ERSP() {
 							<p>
 								If you're interested in learning more about ERSP, you can do so&nbsp;
 								<Link
-										href="https://ersp.eng.ucsd.edu"
-										target="_blank"
-										rel="noopener noreferrer"
-										className={styles.link}
-									>
+									href="https://ersp.eng.ucsd.edu"
+									target="_blank"
+									rel="noopener noreferrer"
+									className={styles.link}
+								>
 										here
-									</Link>.
+								</Link>.
 							</p>
 
 							<br />

@@ -1,8 +1,5 @@
 # portfolio-website
 
-This site is live at [https://stuart6557.github.io/portfolio-website/](https://stuart6557.github.io/portfolio-website/)
-
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
